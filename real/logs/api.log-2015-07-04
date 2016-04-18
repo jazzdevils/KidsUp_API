@@ -1,0 +1,80 @@
+[2015-07-04 20:26:37.929] [INFO] [REQ] GET /login?email=mother1238@kidsup.net&pw=kidsup4321 [153.204.197.157]
+[2015-07-04 20:26:37.930] [INFO] { email: 'mother1238@kidsup.net', pw: 'kidsup4321' }
+[2015-07-04 20:26:37.930] [INFO] [ 'mother1238@kidsup.net', 'kidsup4321' ]
+[2015-07-04 20:26:37.938] [INFO] { login_result: 1,
+  member_id: 21,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '黒木　メイサ',
+  phonenum: '010-1111-2222',
+  member_img: '/images/main/kids/thm/18edaf2f6d2b0a1583e9fab797647e63d8b371f0.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 8,
+  kids_name: '黒木　美穂',
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-07-04 20:26:37.981] [INFO] [RES] /login result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:38.333] [INFO] [REQ] GET /access?member_id=21 [153.204.197.157]
+[2015-07-04 20:26:38.333] [INFO] { member_id: '21' }
+[2015-07-04 20:26:38.337] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-07-04 20:26:38.337] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-07-04 20:26:38.337] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-07-04 20:26:38.339] [INFO] [RES] /access result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:38.990] [INFO] [REQ] GET /getClassList?center_id=20 [153.204.197.157]
+[2015-07-04 20:26:38.990] [INFO] { center_id: '20' }
+[2015-07-04 20:26:38.992] [INFO] [RES] /getClassList result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:40.050] [INFO] [REQ] GET /getBadge2?member_id=21&device_id=1&kids_id=8 [153.204.197.157]
+[2015-07-04 20:26:40.050] [INFO] { member_id: '21', device_id: '1', kids_id: '8' }
+[2015-07-04 20:26:40.052] [INFO] { id: 21,
+  news: 0,
+  manage: 0,
+  contact: 6,
+  notice: 6,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-07-04 20:26:40.052] [INFO] [RES] /getBadge2 result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:41.770] [INFO] [REQ] GET /getContactList2?center_id=20&month=201507&member_id=21&kids_id=8&pageno=1&pagesize=10 [153.204.197.157]
+[2015-07-04 20:26:41.770] [INFO] { center_id: '20',
+  month: '201507',
+  member_id: '21',
+  kids_id: '8',
+  pageno: '1',
+  pagesize: '10' }
+[2015-07-04 20:26:41.771] [INFO] [ '20', '201507', '21', '8', '1', '10' ]
+[2015-07-04 20:26:41.777] [INFO] [RES] /getContactList2 result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:43.414] [INFO] [REQ] GET /getContactReplyList2?contact_id=464&member_id=21&pageno=1&pagesize=10 [153.204.197.157]
+[2015-07-04 20:26:43.414] [INFO] { contact_id: '464',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-07-04 20:26:43.417] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:46.759] [INFO] [REQ] GET /getContactReplyList2?contact_id=463&member_id=21&pageno=1&pagesize=10 [153.204.197.157]
+[2015-07-04 20:26:46.759] [INFO] { contact_id: '463',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-07-04 20:26:46.762] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:52.004] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=1&pagesize=10 [153.204.197.157]
+[2015-07-04 20:26:52.004] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-07-04 20:26:52.006] [INFO] [ '20', '205', '21', '1', '10' ]
+[2015-07-04 20:26:52.012] [INFO] [RES] /getNoticeList result -> status:OK, message: [153.204.197.157]
+[2015-07-04 20:26:53.819] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=374&pageno=1&pagesize=10 [153.204.197.157]
+[2015-07-04 20:26:53.819] [INFO] { notice_id: '374', pageno: '1', pagesize: '10' }
+[2015-07-04 20:26:53.821] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [153.204.197.157]

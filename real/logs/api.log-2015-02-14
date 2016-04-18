@@ -1,0 +1,38 @@
+[2015-02-14 18:02:07.406] [INFO] [REQ] GET /login?email=mother1262@thekidslink.net&pw=kidslink4321 [106.130.174.106]
+[2015-02-14 18:02:07.406] [INFO] { email: 'mother1262@thekidslink.net', pw: 'kidslink4321' }
+[2015-02-14 18:02:07.406] [INFO] [ 'mother1262@thekidslink.net', 'kidslink4321' ]
+[2015-02-14 18:02:07.454] [INFO] { login_result: 1,
+  member_id: 62,
+  center_id: 24,
+  center_name: '꿈나무 유치원',
+  member_name: '이 강호',
+  phonenum: '1234567890',
+  member_img: '/images/main/kids/thm/686f73ead58478673d4622774270bd7642b1d032.jpg',
+  member_type: '3',
+  member_subtype: '',
+  approval_state: 1,
+  class_id: '210',
+  class_name: '해님',
+  admin_yn: '0' }
+[2015-02-14 18:02:07.455] [INFO] [RES] /login result -> status:OK, message: [106.130.174.106]
+[2015-02-14 18:02:07.605] [INFO] [REQ] GET /access?member_id=62 [106.130.174.106]
+[2015-02-14 18:02:07.605] [INFO] { member_id: '62' }
+[2015-02-14 18:02:07.610] [INFO] { id: 2,
+  type: '1',
+  token: '0a606d0cfe8754698cb177f0458a274dd7192d2f63fb86095b3bded33e9c60bb',
+  locale: 'en' }
+[2015-02-14 18:02:07.611] [INFO] [RES] /access result -> status:OK, message: [106.130.174.106]
+[2015-02-14 18:02:07.764] [INFO] [REQ] GET /getClassList?center_id=24 [106.130.174.106]
+[2015-02-14 18:02:07.764] [INFO] { center_id: '24' }
+[2015-02-14 18:02:07.767] [INFO] [RES] /getClassList result -> status:OK, message: [106.130.174.106]
+[2015-02-14 18:02:08.094] [INFO] [REQ] GET /getBadge?member_id=62&device_id=1 [106.130.174.106]
+[2015-02-14 18:02:08.094] [INFO] { member_id: '62', device_id: '1' }
+[2015-02-14 18:02:08.097] [INFO] { id: 62,
+  news: 0,
+  manage: 0,
+  contact: 1,
+  notice: 3,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-02-14 18:02:08.097] [INFO] [RES] /getBadge result -> status:OK, message: [106.130.174.106]

@@ -1,0 +1,123 @@
+[2015-07-26 09:04:23.201] [INFO] [REQ] GET /login?email=jazzdevils@gmail.com&pw=1234 [106.171.32.171]
+[2015-07-26 09:04:23.201] [INFO] { email: 'jazzdevils@gmail.com', pw: '1234' }
+[2015-07-26 09:04:23.201] [INFO] [ 'jazzdevils@gmail.com', '1234' ]
+[2015-07-26 09:04:23.209] [INFO] { login_result: 1,
+  member_id: 190,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'クオン',
+  phonenum: '08035836106',
+  member_img: '/images/main/kids/thm/9e919824b7c49ed3938b084c9ded3d9cf1e59b02.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 128,
+  kids_name: 'クオンいえソル',
+  approval_state: 1,
+  class_id: '200',
+  class_name: 'つくし組',
+  admin_yn: '1' }
+[2015-07-26 09:04:23.250] [INFO] [RES] /login result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:23.420] [INFO] [REQ] GET /access?member_id=190 [106.171.32.171]
+[2015-07-26 09:04:23.420] [INFO] { member_id: '190' }
+[2015-07-26 09:04:23.424] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-07-26 09:04:23.424] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-07-26 09:04:23.424] [INFO] { id: 3,
+  type: '1',
+  token: '94553a0de5cf9c860b17d232fa0787cdeeff25fcd8cd2a3f229fef46384be385',
+  locale: 'ja' }
+[2015-07-26 09:04:23.424] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bFQ6WVJzqk4bZVERiTJ3NWGeHC74gJ03QpkMiDmk6fDowepo1mSh32_6rTbfVXkkK_ggHKJgpqmOdCrNkx8wFD2bA2SFexPGai5c43t5mBUG8sAVnHLccrRubABDBy56lCqZpmgtkDI2EyhTbvesZ9ea762IA',
+  locale: 'ja' }
+[2015-07-26 09:04:23.424] [INFO] { id: 5,
+  type: '2',
+  token: 'APA91bHG509fcse9gEfz7kA5SxPSXSqW8ZgiIi8o_6w45rn0TE6YyjgRgz_z6BOdlKq0oAEFuBOD1ScGJtkoPyLF4deIqJS2zNxx2_wp1PaBTpSWImNP3BWsCX2iHe-ZKXgLqHEvTsFJtyoZ8E2NbcdMVIU8eRsj_A',
+  locale: 'ko' }
+[2015-07-26 09:04:23.425] [INFO] [RES] /access result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:23.849] [INFO] [REQ] GET /getClassList?center_id=38 [106.171.32.171]
+[2015-07-26 09:04:23.849] [INFO] { center_id: '38' }
+[2015-07-26 09:04:23.851] [INFO] [RES] /getClassList result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:24.251] [INFO] [REQ] GET /setLocale?member_id=190&device_id=1&locale=ja [106.171.32.171]
+[2015-07-26 09:04:24.251] [INFO] { member_id: '190', device_id: '1', locale: 'ja' }
+[2015-07-26 09:04:24.275] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.171.32.171]
+[2015-07-26 09:04:24.275] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-07-26 09:04:24.294] [INFO] { result: 1 }
+[2015-07-26 09:04:24.294] [INFO] [RES] /setLocale result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:24.318] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-07-26 09:04:24.318] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:27.316] [INFO] [REQ] GET /getCenterAskApprovalList [106.171.32.171]
+[2015-07-26 09:04:27.319] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:51.215] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.171.32.171]
+[2015-07-26 09:04:51.215] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-07-26 09:04:51.218] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-07-26 09:04:51.218] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:52.121] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.171.32.171]
+[2015-07-26 09:04:52.121] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-07-26 09:04:52.124] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-07-26 09:04:52.124] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:52.125] [INFO] [REQ] GET /setLocale?member_id=190&device_id=1&locale=ja [106.171.32.171]
+[2015-07-26 09:04:52.125] [INFO] { member_id: '190', device_id: '1', locale: 'ja' }
+[2015-07-26 09:04:52.131] [INFO] { result: 1 }
+[2015-07-26 09:04:52.131] [INFO] [RES] /setLocale result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:55.490] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.171.32.171]
+[2015-07-26 09:04:55.490] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-07-26 09:04:55.492] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-07-26 09:04:55.493] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:57.045] [INFO] [REQ] GET /getScheduleList2?center_id=38&member_id=190&kids_id=128&month=201507 [106.171.32.171]
+[2015-07-26 09:04:57.045] [INFO] { center_id: '38',
+  member_id: '190',
+  kids_id: '128',
+  month: '201507' }
+[2015-07-26 09:04:57.049] [INFO] [RES] /getScheduleList2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:04:58.951] [INFO] [REQ] GET /getScheduleDetail2?center_id=38&member_id=190&kids_id=128&date=20150722 [106.171.32.171]
+[2015-07-26 09:04:58.951] [INFO] { center_id: '38',
+  member_id: '190',
+  kids_id: '128',
+  date: '20150722' }
+[2015-07-26 09:04:58.957] [INFO] [RES] /getScheduleDetail2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:05:09.410] [INFO] [REQ] GET /getScheduleDetail2?center_id=38&member_id=190&kids_id=128&date=20150709 [106.171.32.171]
+[2015-07-26 09:05:09.410] [INFO] { center_id: '38',
+  member_id: '190',
+  kids_id: '128',
+  date: '20150709' }
+[2015-07-26 09:05:09.415] [INFO] [RES] /getScheduleDetail2 result -> status:OK, message: [106.171.32.171]
+[2015-07-26 09:05:11.477] [INFO] [REQ] GET /getScheduleDetail2?center_id=38&member_id=190&kids_id=128&date=20150725 [106.171.32.171]
+[2015-07-26 09:05:11.477] [INFO] { center_id: '38',
+  member_id: '190',
+  kids_id: '128',
+  date: '20150725' }
+[2015-07-26 09:05:11.482] [INFO] [RES] /getScheduleDetail2 result -> status:OK, message: [106.171.32.171]

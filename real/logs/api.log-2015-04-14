@@ -1,0 +1,3059 @@
+[2015-04-14 01:43:17.908] [INFO] [REQ] GET /login?email=mother1238@kidsup.net&pw=kidsup4321 [121.111.148.132]
+[2015-04-14 01:43:17.908] [INFO] { email: 'mother1238@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 01:43:17.908] [INFO] [ 'mother1238@kidsup.net', 'kidsup4321' ]
+[2015-04-14 01:43:17.910] [INFO] { login_result: 1,
+  member_id: 21,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '黒木　メイサ',
+  phonenum: '010-1111-2222',
+  member_img: '/images/main/kids/thm/18edaf2f6d2b0a1583e9fab797647e63d8b371f0.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 8,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 01:43:17.911] [INFO] [RES] /login result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:18.062] [INFO] [REQ] GET /access?member_id=21 [121.111.148.132]
+[2015-04-14 01:43:18.062] [INFO] { member_id: '21' }
+[2015-04-14 01:43:18.065] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 01:43:18.065] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 01:43:18.066] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 01:43:18.066] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 01:43:18.066] [INFO] [RES] /access result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:18.220] [INFO] [REQ] GET /getClassList?center_id=20 [121.111.148.132]
+[2015-04-14 01:43:18.220] [INFO] { center_id: '20' }
+[2015-04-14 01:43:18.222] [INFO] [RES] /getClassList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:18.606] [INFO] [REQ] GET /getBadge?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:43:18.606] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:43:18.608] [INFO] { id: 21,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 4,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-04-14 01:43:18.608] [INFO] [RES] /getBadge result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:24.671] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:43:24.671] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:43:24.675] [INFO] [RES] /getNewsList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:29.624] [INFO] [REQ] GET /getNewsDetail2?member_id=21&device_id=1&seq=44&demo=1 [121.111.148.132]
+[2015-04-14 01:43:29.624] [INFO] { member_id: '21', device_id: '1', seq: '44', demo: '1' }
+[2015-04-14 01:43:29.625] [INFO] [ '21', '1', '44', '1' ]
+[2015-04-14 01:43:29.629] [INFO] [RES] /getNewsDetail2 result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:29.842] [INFO] [REQ] GET /getContactReplyList?contact_id=361&member_id=21&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:43:29.842] [INFO] { contact_id: '361',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 01:43:29.845] [INFO] [RES] /getContactReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:44.681] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:43:44.681] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:43:44.683] [INFO] [RES] /getNewsList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:46.648] [INFO] [REQ] GET /getNewsDetail2?member_id=21&device_id=1&seq=43&demo=1 [121.111.148.132]
+[2015-04-14 01:43:46.648] [INFO] { member_id: '21', device_id: '1', seq: '43', demo: '1' }
+[2015-04-14 01:43:46.649] [INFO] [ '21', '1', '43', '1' ]
+[2015-04-14 01:43:46.653] [INFO] [RES] /getNewsDetail2 result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:46.855] [INFO] [REQ] GET /getNoticeReplyList?notice_id=364&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:43:46.855] [INFO] { notice_id: '364', pageno: '1', pagesize: '10' }
+[2015-04-14 01:43:46.858] [INFO] [RES] /getNoticeReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:51.152] [INFO] [REQ] GET /getNoticeReplyList?notice_id=364&pageno=2&pagesize=10 [121.111.148.132]
+[2015-04-14 01:43:51.152] [INFO] { notice_id: '364', pageno: '2', pagesize: '10' }
+[2015-04-14 01:43:51.155] [INFO] [RES] /getNoticeReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:53.185] [INFO] [REQ] GET /getNoticeReplyList?notice_id=364&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:43:53.185] [INFO] { notice_id: '364', pageno: '1', pagesize: '10' }
+[2015-04-14 01:43:53.187] [INFO] [RES] /getNoticeReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:56.121] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:43:56.121] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:43:56.123] [INFO] [RES] /getNewsList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:57.849] [INFO] [REQ] GET /getNewsDetail2?member_id=21&device_id=1&seq=41&demo=1 [121.111.148.132]
+[2015-04-14 01:43:57.849] [INFO] { member_id: '21', device_id: '1', seq: '41', demo: '1' }
+[2015-04-14 01:43:57.850] [INFO] [ '21', '1', '41', '1' ]
+[2015-04-14 01:43:57.852] [INFO] [RES] /getNewsDetail2 result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:58.053] [INFO] [REQ] GET /getContactReplyList?contact_id=359&member_id=21&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:43:58.053] [INFO] { contact_id: '359',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 01:43:58.055] [INFO] [RES] /getContactReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:43:59.438] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:43:59.438] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:43:59.441] [INFO] [RES] /getNewsList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:01.829] [INFO] [REQ] GET /getContactList?center_id=20&month=201504&member_id=21&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:44:01.829] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 01:44:01.832] [INFO] [ '20', '201504', '21', '1', '10' ]
+[2015-04-14 01:44:01.836] [INFO] [RES] /getContactList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:07.240] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:44:07.240] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 01:44:07.241] [INFO] [ '20', '205', '21', '1', '10' ]
+[2015-04-14 01:44:07.246] [INFO] [RES] /getNoticeList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:11.569] [INFO] [REQ] GET /getMamaTalkList?center_id=20&class_id=205&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:44:11.569] [INFO] { center_id: '20', class_id: '205', pageno: '1', pagesize: '10' }
+[2015-04-14 01:44:11.570] [INFO] [ '20', '205', '1', '10' ]
+[2015-04-14 01:44:11.574] [INFO] [RES] /getMamaTalkList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:13.615] [INFO] [REQ] GET /getMamaTalkReplyList?mamatalk_id=96&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:44:13.615] [INFO] { mamatalk_id: '96', pageno: '1', pagesize: '10' }
+[2015-04-14 01:44:13.618] [INFO] [RES] /getMamaTalkReplyList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:18.458] [INFO] [REQ] GET /getScheduleList?center_id=20&member_id=21&month=201504 [121.111.148.132]
+[2015-04-14 01:44:18.458] [INFO] { center_id: '20', member_id: '21', month: '201504' }
+[2015-04-14 01:44:18.461] [INFO] [RES] /getScheduleList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:44:38.018] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=1&pagesize=10 [121.111.148.132]
+[2015-04-14 01:44:38.018] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 01:44:38.019] [INFO] [ '20', '205', '21', '1', '10' ]
+[2015-04-14 01:44:38.024] [INFO] [RES] /getNoticeList result -> status:OK, message: [121.111.148.132]
+[2015-04-14 01:45:53.463] [INFO] [REQ] GET /getBadge?member_id=21&device_id=1 [121.111.148.132]
+[2015-04-14 01:45:53.463] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 01:45:53.465] [INFO] { id: 21,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 4,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-04-14 01:45:53.466] [INFO] [RES] /getBadge result -> status:OK, message: [121.111.148.132]
+[2015-04-14 06:16:33.138] [INFO] [REQ] GET /access?member_id=277 [106.129.85.180]
+[2015-04-14 06:16:33.139] [INFO] { member_id: '277' }
+[2015-04-14 06:16:33.143] [INFO] { id: 1,
+  type: '1',
+  token: 'fa0cf0a5c13c39c86fe595f2264675c0af4753372573d31ab94df4cfdb5a295e',
+  locale: 'ja' }
+[2015-04-14 06:16:33.143] [INFO] [RES] /access result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:33.388] [INFO] [REQ] GET /getClassList?center_id=43 [106.129.85.180]
+[2015-04-14 06:16:33.388] [INFO] { center_id: '43' }
+[2015-04-14 06:16:33.391] [INFO] [RES] /getClassList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:33.768] [INFO] [REQ] GET /getBadge?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 06:16:33.768] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 06:16:33.768] [INFO] [REQ] GET /setLocale?member_id=277&device_id=1&locale=ja [106.129.85.180]
+[2015-04-14 06:16:33.768] [INFO] { member_id: '277', device_id: '1', locale: 'ja' }
+[2015-04-14 06:16:33.770] [INFO] { id: 277,
+  news: 1,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 06:16:33.771] [INFO] [RES] /getBadge result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:33.812] [INFO] { result: 1 }
+[2015-04-14 06:16:33.813] [INFO] [RES] /setLocale result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:35.867] [INFO] [REQ] GET /getNewsList?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 06:16:35.868] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 06:16:35.870] [INFO] [RES] /getNewsList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:37.514] [INFO] [REQ] GET /getNewsDetail2?member_id=277&device_id=1&seq=2&demo=0 [106.129.85.180]
+[2015-04-14 06:16:37.515] [INFO] { member_id: '277', device_id: '1', seq: '2', demo: '0' }
+[2015-04-14 06:16:37.515] [INFO] [ '277', '1', '2', '0' ]
+[2015-04-14 06:16:37.522] [INFO] [RES] /getNewsDetail2 result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:37.777] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 06:16:37.778] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 06:16:37.780] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:16:49.251] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=2&pagesize=10 [106.129.85.180]
+[2015-04-14 06:16:49.251] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 06:16:49.253] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:07.511] [INFO] [REQ] GET /getNewsList?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 06:17:07.511] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 06:17:07.514] [INFO] [RES] /getNewsList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:11.041] [INFO] [REQ] GET /setBadge?member_id=277&badge_name=contact [106.129.85.180]
+[2015-04-14 06:17:11.042] [INFO] { member_id: '277', badge_name: 'contact' }
+[2015-04-14 06:17:11.107] [INFO] { result: 1 }
+[2015-04-14 06:17:11.108] [INFO] [RES] /setBadge result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:11.239] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 06:17:11.240] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 06:17:11.241] [INFO] [ '43', '201504', '277', '1', '10' ]
+[2015-04-14 06:17:11.245] [INFO] [RES] /getContactList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:13.790] [INFO] [REQ] GET /getContactReplyList?contact_id=371&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 06:17:13.791] [INFO] { contact_id: '371',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 06:17:13.793] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:21.960] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 06:17:21.961] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 06:17:21.963] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 06:17:23.491] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=2&pagesize=10 [106.129.85.180]
+[2015-04-14 06:17:23.491] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 06:17:23.493] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:19:49.029] [INFO] [REQ] GET /getBadge?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 08:19:49.029] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 08:19:49.032] [INFO] { id: 277,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 08:19:49.032] [INFO] [RES] /getBadge result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:21:15.102] [INFO] [REQ] POST /postContactReply [106.129.85.180]
+[2015-04-14 08:21:15.102] [INFO] { host: 'www.kidsup.net:5057',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent': '%E3%82%AD%E3%83%83%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97/2015.03.140004 CFNetwork/711.1.16 Darwin/14.0.0',
+  connection: 'keep-alive',
+  member_id: '277',
+  accept: '*/*',
+  'accept-language': 'utf-8',
+  'content-length': '63',
+  contact_id: '370',
+  'accept-encoding': 'gzip, deflate' }
+[2015-04-14 08:21:15.103] [INFO] bufs.totalLength:63
+[2015-04-14 08:21:15.103] [INFO] [ '370', '277', '承知致しました。ご連絡有難うございました。' ]
+[2015-04-14 08:21:15.118] [INFO] [RES] /postContactReply result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:21:15.492] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 08:21:15.492] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 08:21:15.495] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:21:21.752] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 08:21:21.752] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 08:21:21.753] [INFO] [ '43', '201504', '277', '1', '10' ]
+[2015-04-14 08:21:21.758] [INFO] [RES] /getContactList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:21:24.942] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 08:21:24.942] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 08:21:24.945] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 08:22:02.034] [INFO] [REQ] GET /getBadge?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 08:22:02.034] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 08:22:02.039] [INFO] { id: 277,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 08:22:02.039] [INFO] [RES] /getBadge result -> status:OK, message: [106.129.85.180]
+[2015-04-14 09:25:00.517] [INFO] [REQ] GET /getCenterTypeList?country_id=2 [113.36.44.254]
+[2015-04-14 09:25:00.517] [INFO] { country_id: '2' }
+[2015-04-14 09:25:00.519] [INFO] [RES] /getCenterTypeList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:02.885] [INFO] [REQ] GET /getCountryList [113.36.44.254]
+[2015-04-14 09:25:02.885] [INFO] {}
+[2015-04-14 09:25:02.887] [INFO] [RES] /getCountryList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:04.742] [INFO] [REQ] GET /getStateList?country_id=1&center_type=2&cnt_flag=1 [113.36.44.254]
+[2015-04-14 09:25:04.742] [INFO] { country_id: '1', center_type: '2', cnt_flag: '1' }
+[2015-04-14 09:25:04.745] [INFO] [RES] /getStateList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:06.366] [INFO] [REQ] GET /getCityList?state_id=12&center_type=2&cnt_flag=1 [113.36.44.254]
+[2015-04-14 09:25:06.366] [INFO] { state_id: '12', center_type: '2', cnt_flag: '1' }
+[2015-04-14 09:25:06.369] [INFO] [RES] /getCityList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:08.214] [INFO] [REQ] GET /getCenterList?center_type=2&country_id=1&state_id=12&city_id=12 [113.36.44.254]
+[2015-04-14 09:25:08.214] [INFO] { center_type: '2',
+  country_id: '1',
+  state_id: '12',
+  city_id: '12' }
+[2015-04-14 09:25:08.216] [INFO] [RES] /getCenterList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:12.359] [INFO] [REQ] GET /getClassList?center_id=16 [113.36.44.254]
+[2015-04-14 09:25:12.359] [INFO] { center_id: '16' }
+[2015-04-14 09:25:12.361] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:18.387] [INFO] [REQ] GET /getClassList?center_id=16 [113.36.44.254]
+[2015-04-14 09:25:18.387] [INFO] { center_id: '16' }
+[2015-04-14 09:25:18.395] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:22.365] [INFO] [REQ] GET /getClassList?center_id=16 [113.36.44.254]
+[2015-04-14 09:25:22.365] [INFO] { center_id: '16' }
+[2015-04-14 09:25:22.367] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:28.848] [INFO] [REQ] GET /getClassList?center_id=16 [113.36.44.254]
+[2015-04-14 09:25:28.849] [INFO] { center_id: '16' }
+[2015-04-14 09:25:28.851] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:25:32.150] [INFO] [REQ] GET /getClassList?center_id=16 [113.36.44.254]
+[2015-04-14 09:25:32.150] [INFO] { center_id: '16' }
+[2015-04-14 09:25:32.152] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:41:13.403] [INFO] [REQ] GET /login?email=jazzdevils@gmail.com&pw=1234 [113.36.44.254]
+[2015-04-14 09:41:13.403] [INFO] { email: 'jazzdevils@gmail.com', pw: '1234' }
+[2015-04-14 09:41:13.403] [INFO] [ 'jazzdevils@gmail.com', '1234' ]
+[2015-04-14 09:41:13.406] [INFO] { login_result: 1,
+  member_id: 190,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'クオン',
+  phonenum: '08035836106',
+  member_img: '/images/main/kids/thm/9e919824b7c49ed3938b084c9ded3d9cf1e59b02.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 128,
+  approval_state: 1,
+  class_id: '200',
+  class_name: 'つくし組',
+  admin_yn: '1' }
+[2015-04-14 09:41:13.406] [INFO] [RES] /login result -> status:OK, message: [113.36.44.254]
+[2015-04-14 09:41:13.456] [INFO] [REQ] GET /access?member_id=190 [113.36.44.254]
+[2015-04-14 09:41:13.456] [INFO] { member_id: '190' }
+[2015-04-14 09:41:13.460] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-04-14 09:41:13.460] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 09:41:13.460] [INFO] { id: 3,
+  type: '1',
+  token: '94553a0de5cf9c860b17d232fa0787cdeeff25fcd8cd2a3f229fef46384be385',
+  locale: 'ja' }
+[2015-04-14 09:41:13.460] [INFO] [RES] /access result -> status:OK, message: [113.36.44.254]
+[2015-04-14 10:01:47.570] [INFO] [REQ] GET /getBadge?member_id=277&device_id=1 [106.129.85.180]
+[2015-04-14 10:01:47.570] [INFO] { member_id: '277', device_id: '1' }
+[2015-04-14 10:01:47.573] [INFO] { id: 277,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:01:47.574] [INFO] [RES] /getBadge result -> status:OK, message: [106.129.85.180]
+[2015-04-14 10:01:52.427] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 10:01:52.427] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:01:52.428] [INFO] [ '43', '201504', '277', '1', '10' ]
+[2015-04-14 10:01:52.432] [INFO] [RES] /getContactList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 10:01:54.219] [INFO] [REQ] GET /getContactReplyList?contact_id=371&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 10:01:54.219] [INFO] { contact_id: '371',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:01:54.221] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 10:01:58.310] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=1&pagesize=10 [106.129.85.180]
+[2015-04-14 10:01:58.310] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:01:58.312] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 10:02:05.349] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=277&pageno=2&pagesize=10 [106.129.85.180]
+[2015-04-14 10:02:05.349] [INFO] { contact_id: '370',
+  member_id: '277',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 10:02:05.352] [INFO] [RES] /getContactReplyList result -> status:OK, message: [106.129.85.180]
+[2015-04-14 10:22:34.605] [INFO] [REQ] GET /login?email=encho14@kidsup.net&pw=kidsup4321 [106.128.138.4]
+[2015-04-14 10:22:34.605] [INFO] { email: 'encho14@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 10:22:34.605] [INFO] [ 'encho14@kidsup.net', 'kidsup4321' ]
+[2015-04-14 10:22:34.608] [INFO] { login_result: 1,
+  member_id: 131,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '菅原 正樹',
+  phonenum: '09012345678',
+  member_img: '/images/main/member/thm/17c659b17c0e6213e5acb84a991cd7a7510727c2.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 10:22:34.608] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:22:34.903] [INFO] [REQ] GET /getDeviceTokens?member_id=131 [106.128.138.4]
+[2015-04-14 10:22:34.903] [INFO] { member_id: '131' }
+[2015-04-14 10:22:34.905] [INFO] { id: 1,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 10:22:34.905] [INFO] { id: 2,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:22:34.905] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 10:22:34.905] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 10:22:34.906] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:22:35.134] [INFO] [REQ] GET /getClassList?center_id=20 [106.128.138.4]
+[2015-04-14 10:22:35.134] [INFO] { center_id: '20' }
+[2015-04-14 10:22:35.136] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:22:35.518] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:22:35.518] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 10:22:35.520] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 10:22:35.521] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:22:45.700] [INFO] [REQ] GET /getMngClassList?center_id=20 [106.128.138.4]
+[2015-04-14 10:22:45.700] [INFO] { center_id: '20' }
+[2015-04-14 10:22:45.703] [INFO] [RES] /getMngClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:22:56.574] [INFO] [REQ] GET /getAskApprovalList?center_id=20&member_id=131&member_type=1&pageno=1&pagesize=10 [106.128.138.4]
+[2015-04-14 10:22:56.574] [INFO] { center_id: '20',
+  member_id: '131',
+  member_type: '1',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:22:56.577] [INFO] [RES] /getAskApprovalList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:23:04.714] [INFO] [REQ] GET /getTeacherList?center_id=20 [106.128.138.4]
+[2015-04-14 10:23:04.714] [INFO] { center_id: '20' }
+[2015-04-14 10:23:04.717] [INFO] [RES] /getTeacherList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:23:34.448] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:23:34.448] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 10:23:34.451] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 10:23:34.451] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:23:38.767] [INFO] [REQ] GET /getMngClassList?center_id=20 [106.128.138.4]
+[2015-04-14 10:23:38.767] [INFO] { center_id: '20' }
+[2015-04-14 10:23:38.770] [INFO] [RES] /getMngClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:23:47.425] [INFO] [REQ] GET /getMngClassList?center_id=20 [106.128.138.4]
+[2015-04-14 10:23:47.425] [INFO] { center_id: '20' }
+[2015-04-14 10:23:47.428] [INFO] [RES] /getMngClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:25:05.839] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:25:05.839] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 10:25:05.841] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 10:25:05.842] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:25:36.811] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:25:36.811] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 10:25:36.813] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 10:25:36.814] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:25:57.111] [INFO] [REQ] GET /getCenterTypeList?country_id=1 [106.128.138.4]
+[2015-04-14 10:25:57.111] [INFO] { country_id: '1' }
+[2015-04-14 10:25:57.113] [INFO] [RES] /getCenterTypeList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:26:02.612] [INFO] [REQ] GET /getCountryList [106.128.138.4]
+[2015-04-14 10:26:02.612] [INFO] {}
+[2015-04-14 10:26:02.616] [INFO] [RES] /getCountryList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:26:04.811] [INFO] [REQ] GET /getStateList?country_id=1&center_type=1&cnt_flag=0 [106.128.138.4]
+[2015-04-14 10:26:04.811] [INFO] { country_id: '1', center_type: '1', cnt_flag: '0' }
+[2015-04-14 10:26:04.814] [INFO] [RES] /getStateList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:26:08.032] [INFO] [REQ] GET /getCityList?state_id=1&center_type=1&cnt_flag=0 [106.128.138.4]
+[2015-04-14 10:26:08.032] [INFO] { state_id: '1', center_type: '1', cnt_flag: '0' }
+[2015-04-14 10:26:08.036] [INFO] [RES] /getCityList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:27:24.090] [INFO] [REQ] GET /emailCheck?email=jun15@co.jp [106.128.138.4]
+[2015-04-14 10:27:24.090] [INFO] { email: 'jun15@co.jp' }
+[2015-04-14 10:27:24.090] [INFO] [ 'jun15@co.jp' ]
+[2015-04-14 10:27:24.092] [INFO] { email_check: 0 }
+[2015-04-14 10:27:24.092] [INFO] [RES] /emailCheck result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:27:24.369] [INFO] [REQ] POST /postMemberType1Info [106.128.138.4]
+[2015-04-14 10:27:24.369] [INFO] { host: 'www.kidsup.net:5057',
+  'content-type': 'multipart/form-data; charset=UTF-8',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': '%E3%82%AD%E3%83%83%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97/2015.04.072114 CFNetwork/711.1.16 Darwin/14.0.0',
+  'content-length': '314',
+  'accept-language': 'ja-jp',
+  'accept-encoding': 'gzip, deflate' }
+[2015-04-14 10:27:24.370] [INFO] bufs.totalLength:314
+[2015-04-14 10:27:24.370] [INFO] [ '1',
+  '1',
+  '1',
+  '1',
+  '1',
+  'キッズアップ保育園',
+  '園長',
+  'jun15@co.jp',
+  '1234',
+  '090000000',
+  'キッズアップ1-1' ]
+[2015-04-14 10:27:24.370] [INFO] filename:undefined
+[2015-04-14 10:27:24.391] [INFO] { result: 285, center_id: 70 }
+[2015-04-14 10:27:24.391] [INFO] [RES] /postMemberType1Info result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:27:24.398] [INFO] <!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsUp</title>
+</head>
+<body>
+<table>
+<tr>
+    <td valign='top'>
+        <div>キッズアップ保育園様<br><br>この度はキッズアップサービスにご登録いただきまして、誠にありがとうございます。<br><br>下記のＵＲＬにアクセスすると、キッズアップのサービスがすぐにご利用頂けます。<br><br>アクセスがされてない場合は、キッズアップスタッフからのご連絡がある場合もございます。<br><br>このメールは自動返信にてお送りしております。<br>※お問い合わせの際は、このままご返信頂ければ結構です。</div><br>
+        <div><a href="http://web.kidsup.net/servicestart/12840b238850ab2b8e38dd0425914f0c/ja">キッズアップサービス開始</a></div><br>
+        <div>©2015 ZeroFive .LLC</div>
+    <td>
+</tr>
+</table>
+</body>
+</html>
+[2015-04-14 10:27:24.414] [ERROR] { [Error: Sending failed]
+  errors: [ { [Error: queryMx ENODATA] code: 'ENODATA', errno: 'ENODATA', syscall: 'queryMx' } ] }
+Error: Sending failed
+    at DirectMailer.domains.forEach.item.callback (/home/ec2-user/KidsLink/webapi/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/direct-transport.js:135:41)
+    at DirectMailer.<anonymous> (/home/ec2-user/KidsLink/webapi/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/direct-transport.js:193:22)
+    at asyncCallback (dns.js:68:16)
+    at Object.onanswer [as oncomplete] (dns.js:149:9)
+[2015-04-14 10:27:47.666] [INFO] [REQ] GET /login?email=jun33@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:27:47.666] [INFO] { email: 'jun33@co.jp', pw: '1234' }
+[2015-04-14 10:27:47.666] [INFO] [ 'jun33@co.jp', '1234' ]
+[2015-04-14 10:27:47.668] [INFO] { login_result: 0 }
+[2015-04-14 10:27:47.668] [INFO] [RES] /login result -> status:-5, message:login fail [106.128.138.4]
+[2015-04-14 10:27:59.646] [INFO] [REQ] GET /login?email=jun33@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:27:59.646] [INFO] { email: 'jun33@co.jp', pw: '1234' }
+[2015-04-14 10:27:59.646] [INFO] [ 'jun33@co.jp', '1234' ]
+[2015-04-14 10:27:59.648] [INFO] { login_result: 0 }
+[2015-04-14 10:27:59.649] [INFO] [RES] /login result -> status:-5, message:login fail [106.128.138.4]
+[2015-04-14 10:28:07.167] [INFO] [REQ] GET /login?email=jun13@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:28:07.167] [INFO] { email: 'jun13@co.jp', pw: '1234' }
+[2015-04-14 10:28:07.167] [INFO] [ 'jun13@co.jp', '1234' ]
+[2015-04-14 10:28:07.169] [INFO] { login_result: 0 }
+[2015-04-14 10:28:07.169] [INFO] [RES] /login result -> status:-5, message:login fail [106.128.138.4]
+[2015-04-14 10:28:20.506] [INFO] [REQ] GET /login?email=jun@0-start.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:28:20.506] [INFO] { email: 'jun@0-start.jp', pw: '1234' }
+[2015-04-14 10:28:20.506] [INFO] [ 'jun@0-start.jp', '1234' ]
+[2015-04-14 10:28:20.508] [INFO] { login_result: 1,
+  member_id: 188,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: '林 先生',
+  phonenum: '09061792840',
+  member_img: '/images/main/member/thm/d17d49344b7cac4e4cdbc2c5797e7253de829ac4.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '1' }
+[2015-04-14 10:28:20.509] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:20.806] [INFO] [REQ] GET /getDeviceTokens?member_id=188 [106.128.138.4]
+[2015-04-14 10:28:20.806] [INFO] { member_id: '188' }
+[2015-04-14 10:28:20.808] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:28:20.808] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 10:28:20.808] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:21.086] [INFO] [REQ] GET /getClassList?center_id=38 [106.128.138.4]
+[2015-04-14 10:28:21.086] [INFO] { center_id: '38' }
+[2015-04-14 10:28:21.088] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:21.346] [INFO] [REQ] GET /getBadge2?member_id=188&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:28:21.346] [INFO] { member_id: '188', device_id: '1', kids_id: '' }
+[2015-04-14 10:28:21.347] [INFO] [REQ] GET /setLocale?member_id=188&device_id=1&locale=ja [106.128.138.4]
+[2015-04-14 10:28:21.347] [INFO] { member_id: '188', device_id: '1', locale: 'ja' }
+[2015-04-14 10:28:21.349] [INFO] { id: 188,
+  news: 0,
+  manage: 0,
+  contact: 4,
+  notice: 6,
+  event: 3,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:28:21.349] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:21.353] [INFO] { result: 1 }
+[2015-04-14 10:28:21.353] [INFO] [RES] /setLocale result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:27.786] [INFO] [REQ] GET /getCenterAskApprovalList [106.128.138.4]
+[2015-04-14 10:28:27.789] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:39.017] [INFO] [REQ] GET /getCenterAskApprovalList [106.128.138.4]
+[2015-04-14 10:28:39.020] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:28:42.536] [INFO] [REQ] GET /doCenterAskApprove?center_id=70 [106.128.138.4]
+[2015-04-14 10:28:42.536] [INFO] { center_id: '70' }
+[2015-04-14 10:28:42.557] [INFO] { result: 1 }
+[2015-04-14 10:28:42.557] [INFO] [RES] /doCenterAskApprove result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:15.354] [INFO] [REQ] GET /login?email=jun15@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:29:15.354] [INFO] { email: 'jun15@co.jp', pw: '1234' }
+[2015-04-14 10:29:15.354] [INFO] [ 'jun15@co.jp', '1234' ]
+[2015-04-14 10:29:15.357] [INFO] { login_result: 1,
+  member_id: 285,
+  center_id: 70,
+  center_name: 'キッズアップ保育園',
+  member_name: '園長',
+  phonenum: '090000000',
+  member_img: '',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 10:29:15.357] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:15.564] [INFO] [REQ] GET /getDeviceTokens?member_id=285 [106.128.138.4]
+[2015-04-14 10:29:15.564] [INFO] { member_id: '285' }
+[2015-04-14 10:29:15.566] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:15.782] [INFO] [REQ] GET /getClassList?center_id=70 [106.128.138.4]
+[2015-04-14 10:29:15.782] [INFO] { center_id: '70' }
+[2015-04-14 10:29:15.784] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:16.002] [INFO] [REQ] POST /updateDeviceToken [106.128.138.4]
+[2015-04-14 10:29:16.004] [INFO] bufs.totalLength:115
+[2015-04-14 10:29:16.004] [INFO] { member_id: '285',
+  device_type: '1',
+  device_token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:29:16.005] [INFO] [ '285',
+  '1',
+  '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  'ja' ]
+[2015-04-14 10:29:16.041] [INFO] { result: 1, id: 1 }
+[2015-04-14 10:29:16.041] [INFO] [RES] /updateDeviceToken result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:48.646] [INFO] [REQ] GET /login?email=jun15@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:29:48.646] [INFO] { email: 'jun15@co.jp', pw: '1234' }
+[2015-04-14 10:29:48.646] [INFO] [ 'jun15@co.jp', '1234' ]
+[2015-04-14 10:29:48.649] [INFO] { login_result: 1,
+  member_id: 285,
+  center_id: 70,
+  center_name: 'キッズアップ保育園',
+  member_name: '園長',
+  phonenum: '090000000',
+  member_img: '',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 10:29:48.649] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:48.916] [INFO] [REQ] GET /getDeviceTokens?member_id=285 [106.128.138.4]
+[2015-04-14 10:29:48.916] [INFO] { member_id: '285' }
+[2015-04-14 10:29:48.918] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:29:48.918] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:49.126] [INFO] [REQ] GET /getClassList?center_id=70 [106.128.138.4]
+[2015-04-14 10:29:49.126] [INFO] { center_id: '70' }
+[2015-04-14 10:29:49.129] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:49.376] [INFO] [REQ] GET /setLocale?member_id=285&device_id=1&locale=ja [106.128.138.4]
+[2015-04-14 10:29:49.376] [INFO] { member_id: '285', device_id: '1', locale: 'ja' }
+[2015-04-14 10:29:49.392] [INFO] [REQ] GET /getBadge2?member_id=285&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:29:49.392] [INFO] { member_id: '285', device_id: '1', kids_id: '' }
+[2015-04-14 10:29:49.394] [INFO] { id: 285,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:29:49.394] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:49.396] [INFO] { result: 1 }
+[2015-04-14 10:29:49.396] [INFO] [RES] /setLocale result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:29:52.353] [INFO] [REQ] GET /getBadge2?member_id=285&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:29:52.353] [INFO] { member_id: '285', device_id: '1', kids_id: '' }
+[2015-04-14 10:29:52.356] [INFO] { id: 285,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:29:52.356] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:03.367] [INFO] [REQ] GET /getBadge2?member_id=285&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:30:03.367] [INFO] { member_id: '285', device_id: '1', kids_id: '' }
+[2015-04-14 10:30:03.369] [INFO] { id: 285,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:30:03.370] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:45.952] [INFO] [REQ] GET /login?email=jun15@co.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:30:45.952] [INFO] { email: 'jun15@co.jp', pw: '1234' }
+[2015-04-14 10:30:45.952] [INFO] [ 'jun15@co.jp', '1234' ]
+[2015-04-14 10:30:45.954] [INFO] { login_result: 1,
+  member_id: 285,
+  center_id: 70,
+  center_name: 'キッズアップ保育園',
+  member_name: '園長',
+  phonenum: '090000000',
+  member_img: '',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 10:30:45.955] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:46.222] [INFO] [REQ] GET /getDeviceTokens?member_id=285 [106.128.138.4]
+[2015-04-14 10:30:46.222] [INFO] { member_id: '285' }
+[2015-04-14 10:30:46.224] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:30:46.224] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:46.532] [INFO] [REQ] GET /getClassList?center_id=70 [106.128.138.4]
+[2015-04-14 10:30:46.532] [INFO] { center_id: '70' }
+[2015-04-14 10:30:46.534] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:46.852] [INFO] [REQ] GET /setLocale?member_id=285&device_id=1&locale=ja [106.128.138.4]
+[2015-04-14 10:30:46.852] [INFO] { member_id: '285', device_id: '1', locale: 'ja' }
+[2015-04-14 10:30:46.852] [INFO] [REQ] GET /getBadge2?member_id=285&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:30:46.852] [INFO] { member_id: '285', device_id: '1', kids_id: '' }
+[2015-04-14 10:30:46.854] [INFO] { id: 285,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:30:46.855] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:30:46.872] [INFO] { result: 1 }
+[2015-04-14 10:30:46.872] [INFO] [RES] /setLocale result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:31:42.070] [INFO] [REQ] GET /getBadge2?member_id=285&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:31:42.070] [INFO] { member_id: '285', device_id: '1', kids_id: '' }
+[2015-04-14 10:31:42.072] [INFO] { id: 285,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:31:42.073] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:51:44.692] [INFO] [REQ] GET /access?member_id=227 [115.179.109.158]
+[2015-04-14 10:51:44.692] [INFO] { member_id: '227' }
+[2015-04-14 10:51:44.696] [INFO] { id: 1,
+  type: '1',
+  token: '5feabfe861c30c922d062267c71669d6658700d6251aec4ff88ff29bea2385c3',
+  locale: 'ja' }
+[2015-04-14 10:51:44.696] [INFO] [RES] /access result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:44.903] [INFO] [REQ] GET /getClassList?center_id=43 [115.179.109.158]
+[2015-04-14 10:51:44.903] [INFO] { center_id: '43' }
+[2015-04-14 10:51:44.906] [INFO] [RES] /getClassList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:47.693] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:47.693] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:51:47.694] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 10:51:47.698] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:49.218] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:49.218] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:51:49.221] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:51.904] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=2&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:51.904] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 10:51:51.907] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:52.458] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:52.458] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:51:52.461] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:53.472] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=2&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:53.472] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 10:51:53.474] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:51:54.655] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 10:51:54.655] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:51:54.657] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:52:00.511] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=2&pagesize=10 [115.179.109.158]
+[2015-04-14 10:52:00.511] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 10:52:00.513] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:52:06.686] [INFO] [REQ] GET /getContactReplyList?contact_id=370&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 10:52:06.686] [INFO] { contact_id: '370',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 10:52:06.689] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 10:58:27.410] [INFO] [REQ] GET /login?email=jun@0-start.jp&pw=1234 [106.128.138.4]
+[2015-04-14 10:58:27.410] [INFO] { email: 'jun@0-start.jp', pw: '1234' }
+[2015-04-14 10:58:27.410] [INFO] [ 'jun@0-start.jp', '1234' ]
+[2015-04-14 10:58:27.413] [INFO] { login_result: 1,
+  member_id: 188,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: '林 先生',
+  phonenum: '09061792840',
+  member_img: '/images/main/member/thm/d17d49344b7cac4e4cdbc2c5797e7253de829ac4.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '1' }
+[2015-04-14 10:58:27.414] [INFO] [RES] /login result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:27.677] [INFO] [REQ] GET /getDeviceTokens?member_id=188 [106.128.138.4]
+[2015-04-14 10:58:27.677] [INFO] { member_id: '188' }
+[2015-04-14 10:58:27.679] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 10:58:27.680] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 10:58:27.680] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:27.942] [INFO] [REQ] GET /getClassList?center_id=38 [106.128.138.4]
+[2015-04-14 10:58:27.942] [INFO] { center_id: '38' }
+[2015-04-14 10:58:27.944] [INFO] [RES] /getClassList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:28.353] [INFO] [REQ] GET /setLocale?member_id=188&device_id=1&locale=ja [106.128.138.4]
+[2015-04-14 10:58:28.353] [INFO] { member_id: '188', device_id: '1', locale: 'ja' }
+[2015-04-14 10:58:28.354] [INFO] [REQ] GET /getBadge2?member_id=188&device_id=1&kids_id= [106.128.138.4]
+[2015-04-14 10:58:28.354] [INFO] { member_id: '188', device_id: '1', kids_id: '' }
+[2015-04-14 10:58:28.356] [INFO] { id: 188,
+  news: 0,
+  manage: 0,
+  contact: 4,
+  notice: 6,
+  event: 3,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 10:58:28.356] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:28.389] [INFO] { result: 1 }
+[2015-04-14 10:58:28.389] [INFO] [RES] /setLocale result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:32.722] [INFO] [REQ] GET /getCenterAskApprovalList [106.128.138.4]
+[2015-04-14 10:58:32.726] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.128.138.4]
+[2015-04-14 10:58:54.755] [INFO] [REQ] GET /deleteCenterAskApprove?center_id=70 [106.128.138.4]
+[2015-04-14 10:58:54.755] [INFO] { center_id: '70' }
+[2015-04-14 10:58:54.761] [INFO] { result: 1 }
+[2015-04-14 10:58:54.762] [INFO] [RES] /deleteCenterAskApprove result -> status:OK, message: [106.128.138.4]
+[2015-04-14 11:32:45.088] [INFO] [REQ] GET /login?email=jazzdevils@gmail.com&pw=1234 [61.213.120.148]
+[2015-04-14 11:32:45.088] [INFO] { email: 'jazzdevils@gmail.com', pw: '1234' }
+[2015-04-14 11:32:45.088] [INFO] [ 'jazzdevils@gmail.com', '1234' ]
+[2015-04-14 11:32:45.091] [INFO] { login_result: 1,
+  member_id: 190,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'クオン',
+  phonenum: '08035836106',
+  member_img: '/images/main/kids/thm/9e919824b7c49ed3938b084c9ded3d9cf1e59b02.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 128,
+  approval_state: 1,
+  class_id: '200',
+  class_name: 'つくし組',
+  admin_yn: '1' }
+[2015-04-14 11:32:45.091] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:32:45.432] [INFO] [REQ] GET /access?member_id=190 [61.213.120.148]
+[2015-04-14 11:32:45.432] [INFO] { member_id: '190' }
+[2015-04-14 11:32:45.436] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-04-14 11:32:45.436] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 11:32:45.436] [INFO] { id: 3,
+  type: '1',
+  token: '94553a0de5cf9c860b17d232fa0787cdeeff25fcd8cd2a3f229fef46384be385',
+  locale: 'ja' }
+[2015-04-14 11:32:45.437] [INFO] [RES] /access result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:32:45.527] [INFO] [REQ] GET /getClassList?center_id=38 [61.213.120.148]
+[2015-04-14 11:32:45.527] [INFO] { center_id: '38' }
+[2015-04-14 11:32:45.529] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:32:45.725] [INFO] [REQ] GET /setLocale?member_id=190&device_id=1&locale=ja [61.213.120.148]
+[2015-04-14 11:32:45.725] [INFO] { member_id: '190', device_id: '1', locale: 'ja' }
+[2015-04-14 11:32:45.730] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [61.213.120.148]
+[2015-04-14 11:32:45.730] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-04-14 11:32:45.732] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 11:32:45.732] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:32:45.757] [INFO] { result: 1 }
+[2015-04-14 11:32:45.758] [INFO] [RES] /setLocale result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:32:48.233] [INFO] [REQ] GET /getCenterAskApprovalList [61.213.120.148]
+[2015-04-14 11:32:48.236] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:56:21.185] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 11:56:21.185] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 11:56:21.185] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 11:56:21.187] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 11:56:21.188] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:56:21.268] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 11:56:21.268] [INFO] { member_id: '32' }
+[2015-04-14 11:56:21.270] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 11:56:21.270] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 11:56:21.270] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 11:56:21.270] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 11:56:21.270] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:56:21.332] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 11:56:21.332] [INFO] { center_id: '20' }
+[2015-04-14 11:56:21.334] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 11:56:21.594] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 11:56:21.595] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 11:56:21.597] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 11:56:21.597] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 12:00:25.308] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 12:00:25.308] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 12:00:25.310] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 12:00:25.310] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 12:00:26.134] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 12:00:26.134] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 12:00:26.135] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 12:00:26.169] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 12:00:29.207] [INFO] [REQ] GET /getContactReplyList2?contact_id=361&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 12:00:29.207] [INFO] { contact_id: '361',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 12:00:29.210] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 12:00:31.974] [INFO] [REQ] GET /getContactReplyList2?contact_id=360&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 12:00:31.974] [INFO] { contact_id: '360',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 12:00:31.977] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 13:37:42.327] [INFO] [REQ] GET /login?email=arilang123@naver.com&pw=1234 [113.36.44.254]
+[2015-04-14 13:37:42.327] [INFO] { email: 'arilang123@naver.com', pw: '1234' }
+[2015-04-14 13:37:42.327] [INFO] [ 'arilang123@naver.com', '1234' ]
+[2015-04-14 13:37:42.329] [INFO] { login_result: 1,
+  member_id: 199,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'kwon',
+  phonenum: '08035836106',
+  member_img: '/images/main/member/thm/a66263e4461c9d76c98ecebafca36c4596116ad1.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 0,
+  class_id: '202',
+  class_name: 'もも組',
+  admin_yn: '0' }
+[2015-04-14 13:37:42.330] [INFO] [RES] /login result -> status:OK, message: [113.36.44.254]
+[2015-04-14 13:37:42.371] [INFO] [REQ] GET /getDeviceTokens?member_id=199 [113.36.44.254]
+[2015-04-14 13:37:42.372] [INFO] { member_id: '199' }
+[2015-04-14 13:37:42.373] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-04-14 13:37:42.374] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:16.698] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [113.36.44.254]
+[2015-04-14 14:04:16.698] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 14:04:16.698] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 14:04:16.700] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 14:04:16.700] [INFO] [RES] /login result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:16.737] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [113.36.44.254]
+[2015-04-14 14:04:16.737] [INFO] { member_id: '32' }
+[2015-04-14 14:04:16.739] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 14:04:16.739] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 14:04:16.739] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 14:04:16.739] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:04:16.739] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:16.768] [INFO] [REQ] GET /getClassList?center_id=20 [113.36.44.254]
+[2015-04-14 14:04:16.768] [INFO] { center_id: '20' }
+[2015-04-14 14:04:16.770] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:16.825] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [113.36.44.254]
+[2015-04-14 14:04:16.825] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:04:16.827] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:04:16.827] [INFO] [RES] /getBadge2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:18.279] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:04:18.279] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:04:18.279] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 14:04:18.326] [INFO] [RES] /getContactList2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:20.552] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:04:20.552] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:04:20.555] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:28.875] [INFO] [REQ] GET /getContactReplyList2?contact_id=360&member_id=32&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:04:28.876] [INFO] { contact_id: '360',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:04:28.878] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:04:42.357] [INFO] [REQ] GET /getContactReplyList2?contact_id=359&member_id=32&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:04:42.357] [INFO] { contact_id: '359',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:04:42.360] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:24.967] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [113.36.44.254]
+[2015-04-14 14:05:24.967] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 14:05:24.967] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 14:05:24.970] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 14:05:24.970] [INFO] [RES] /login result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:25.011] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [113.36.44.254]
+[2015-04-14 14:05:25.012] [INFO] { member_id: '32' }
+[2015-04-14 14:05:25.014] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 14:05:25.014] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 14:05:25.014] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 14:05:25.014] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:05:25.014] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:25.056] [INFO] [REQ] GET /getClassList?center_id=20 [113.36.44.254]
+[2015-04-14 14:05:25.056] [INFO] { center_id: '20' }
+[2015-04-14 14:05:25.065] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:25.131] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [113.36.44.254]
+[2015-04-14 14:05:25.131] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:05:25.133] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:05:25.134] [INFO] [RES] /getBadge2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:31.427] [INFO] [REQ] GET /getMemberInfo?member_id=32 [113.36.44.254]
+[2015-04-14 14:05:31.427] [INFO] { member_id: '32' }
+[2015-04-14 14:05:31.427] [INFO] [ '32' ]
+[2015-04-14 14:05:31.429] [INFO] { member_type: '2',
+  center_id: 20,
+  center_type: 2,
+  center_name: 'レインボウ幼稚園',
+  invitation_code: '6A694CE5',
+  country_id: 1,
+  country_name: '日本',
+  state_id: 13,
+  state_name: '東京都',
+  city_id: 4,
+  city_name: '新宿区',
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  img: 'c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg' }
+[2015-04-14 14:05:31.429] [INFO] [RES] /getMemberInfo result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:33.038] [INFO] [REQ] GET /getClassList?center_id=20 [113.36.44.254]
+[2015-04-14 14:05:33.038] [INFO] { center_id: '20' }
+[2015-04-14 14:05:33.040] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:41.109] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [113.36.44.254]
+[2015-04-14 14:05:41.109] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:05:41.112] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:05:41.112] [INFO] [RES] /getBadge2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:05:43.295] [INFO] [REQ] GET /getEventList?center_id=20&class_id=&member_id=32&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:05:43.295] [INFO] { center_id: '20',
+  class_id: '',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:05:43.295] [INFO] [ '20', -1, '32', '1', '10' ]
+[2015-04-14 14:05:43.300] [INFO] [RES] /getEventList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:00.808] [INFO] [REQ] GET /getDailyMenuList?center_id=20&class_id=205&pageno=1&pagesize=5 [113.36.44.254]
+[2015-04-14 14:06:00.808] [INFO] { center_id: '20', class_id: '205', pageno: '1', pagesize: '5' }
+[2015-04-14 14:06:00.811] [INFO] [RES] /getDailyMenuList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:07.327] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:06:07.327] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:06:07.328] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 14:06:07.380] [INFO] [RES] /getContactList2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:10.588] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:06:10.588] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:06:10.591] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:25.261] [INFO] [REQ] GET /login?email=encho14@kidsup.net&pw=kidsup4321 [113.36.44.254]
+[2015-04-14 14:06:25.261] [INFO] { email: 'encho14@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 14:06:25.261] [INFO] [ 'encho14@kidsup.net', 'kidsup4321' ]
+[2015-04-14 14:06:25.264] [INFO] { login_result: 1,
+  member_id: 131,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '菅原 正樹',
+  phonenum: '09012345678',
+  member_img: '/images/main/member/thm/17c659b17c0e6213e5acb84a991cd7a7510727c2.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 14:06:25.264] [INFO] [RES] /login result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:25.307] [INFO] [REQ] GET /getDeviceTokens?member_id=131 [113.36.44.254]
+[2015-04-14 14:06:25.307] [INFO] { member_id: '131' }
+[2015-04-14 14:06:25.309] [INFO] { id: 1,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 14:06:25.309] [INFO] { id: 2,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 14:06:25.309] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 14:06:25.309] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:06:25.309] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:25.340] [INFO] [REQ] GET /getClassList?center_id=20 [113.36.44.254]
+[2015-04-14 14:06:25.341] [INFO] { center_id: '20' }
+[2015-04-14 14:06:25.342] [INFO] [RES] /getClassList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:25.397] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [113.36.44.254]
+[2015-04-14 14:06:25.397] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 14:06:25.399] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 14:06:25.400] [INFO] [RES] /getBadge2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:26.800] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=131&kids_id=&pageno=1&pagesize=10 [113.36.44.254]
+[2015-04-14 14:06:26.801] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '131',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:06:26.802] [INFO] [ '20', '201504', '131', -1, '1', '10' ]
+[2015-04-14 14:06:26.857] [INFO] [RES] /getContactList2 result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:29.475] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:06:29.475] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:06:29.477] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:33.238] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=207 [113.36.44.254]
+[2015-04-14 14:06:33.238] [INFO] { center_id: '20', class_id: '207' }
+[2015-04-14 14:06:33.240] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:36.253] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=206 [113.36.44.254]
+[2015-04-14 14:06:36.253] [INFO] { center_id: '20', class_id: '206' }
+[2015-04-14 14:06:36.255] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:06:39.605] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:06:39.605] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:06:39.607] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:07:06.525] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:07:06.525] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:07:06.528] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:07:20.869] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=206 [113.36.44.254]
+[2015-04-14 14:07:20.869] [INFO] { center_id: '20', class_id: '206' }
+[2015-04-14 14:07:20.872] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:07:24.005] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [113.36.44.254]
+[2015-04-14 14:07:24.005] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 14:07:24.007] [INFO] [RES] /getKidsList result -> status:OK, message: [113.36.44.254]
+[2015-04-14 14:16:02.700] [INFO] [REQ] GET /getCenterTypeList?country_id=1 [182.250.73.103]
+[2015-04-14 14:16:02.701] [INFO] { country_id: '1' }
+[2015-04-14 14:16:02.703] [INFO] [RES] /getCenterTypeList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:16:06.491] [INFO] [REQ] GET /getCountryList [182.250.73.103]
+[2015-04-14 14:16:06.491] [INFO] {}
+[2015-04-14 14:16:06.493] [INFO] [RES] /getCountryList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:16:08.421] [INFO] [REQ] GET /getStateList?country_id=1&center_type=1&cnt_flag=0 [182.250.73.103]
+[2015-04-14 14:16:08.421] [INFO] { country_id: '1', center_type: '1', cnt_flag: '0' }
+[2015-04-14 14:16:08.424] [INFO] [RES] /getStateList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:16:12.361] [INFO] [REQ] GET /getCityList?state_id=13&center_type=1&cnt_flag=0 [182.250.73.103]
+[2015-04-14 14:16:12.361] [INFO] { state_id: '13', center_type: '1', cnt_flag: '0' }
+[2015-04-14 14:16:12.364] [INFO] [RES] /getCityList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:17:36.363] [INFO] [REQ] GET /emailCheck?email=sayoko.ikeda@gmail.com [182.250.73.103]
+[2015-04-14 14:17:36.363] [INFO] { email: 'sayoko.ikeda@gmail.com' }
+[2015-04-14 14:17:36.363] [INFO] [ 'sayoko.ikeda@gmail.com' ]
+[2015-04-14 14:17:36.366] [INFO] { email_check: 0 }
+[2015-04-14 14:17:36.366] [INFO] [RES] /emailCheck result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:17:36.663] [INFO] [REQ] POST /postMemberType1Info [182.250.73.103]
+[2015-04-14 14:17:36.663] [INFO] { 'content-type': 'multipart/form-data; charset=UTF-8',
+  'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SOL25 Build/17.1.C.0.307)',
+  host: 'www.kidsup.net:5057',
+  connection: 'Keep-Alive',
+  'accept-encoding': 'gzip',
+  'content-length': '287' }
+[2015-04-14 14:17:36.663] [INFO] bufs.totalLength:287
+[2015-04-14 14:17:36.663] [INFO] [ '1',
+  '1',
+  '1',
+  '13',
+  '3',
+  '池田保育園テスト',
+  '池田',
+  'sayoko.ikeda@gmail.com',
+  '1234',
+  '08066899859',
+  '白金1-15-26' ]
+[2015-04-14 14:17:36.665] [INFO] filename:undefined
+[2015-04-14 14:17:36.709] [INFO] { result: 286, center_id: 71 }
+[2015-04-14 14:17:36.709] [INFO] [RES] /postMemberType1Info result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:17:36.712] [INFO] <!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsUp</title>
+</head>
+<body>
+<table>
+<tr>
+    <td valign='top'>
+        <div>池田保育園テスト様<br><br>この度はキッズアップサービスにご登録いただきまして、誠にありがとうございます。<br><br>下記のＵＲＬにアクセスすると、キッズアップのサービスがすぐにご利用頂けます。<br><br>アクセスがされてない場合は、キッズアップスタッフからのご連絡がある場合もございます。<br><br>このメールは自動返信にてお送りしております。<br>※お問い合わせの際は、このままご返信頂ければ結構です。</div><br>
+        <div><a href="http://web.kidsup.net/servicestart/d75860a46a32f0eb3d12129e3ec382f9/ja">キッズアップサービス開始</a></div><br>
+        <div>©2015 ZeroFive .LLC</div>
+    <td>
+</tr>
+</table>
+</body>
+</html>
+[2015-04-14 14:17:38.713] [INFO] Message sent:{"accepted":["sayoko.ikeda@gmail.com"],"rejected":[],"pending":[],"errors":[],"envelope":{"from":"support@kidsup.net","to":["sayoko.ikeda@gmail.com"]},"messageId":"1428988657380-acec9889-3bf63a92-04eb7bed@kidsup.net"}
+[2015-04-14 14:19:40.811] [INFO] [REQ] GET /login?email=sayoko.ikeda@gmail.com&pw=1234 [182.250.73.103]
+[2015-04-14 14:19:40.812] [INFO] { email: 'sayoko.ikeda@gmail.com', pw: '1234' }
+[2015-04-14 14:19:40.812] [INFO] [ 'sayoko.ikeda@gmail.com', '1234' ]
+[2015-04-14 14:19:40.814] [INFO] { login_result: 1,
+  member_id: 286,
+  center_id: 71,
+  center_name: '池田保育園テスト',
+  member_name: '池田',
+  phonenum: '08066899859',
+  member_img: '',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 14:19:40.815] [INFO] [RES] /login result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:19:41.111] [INFO] [REQ] GET /getDeviceTokens?member_id=286 [182.250.73.103]
+[2015-04-14 14:19:41.112] [INFO] { member_id: '286' }
+[2015-04-14 14:19:41.114] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:19:41.431] [INFO] [REQ] GET /getClassList?center_id=71 [182.250.73.103]
+[2015-04-14 14:19:41.432] [INFO] { center_id: '71' }
+[2015-04-14 14:19:41.434] [INFO] [RES] /getClassList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:19:41.731] [INFO] [REQ] POST /updateDeviceToken [182.250.73.103]
+[2015-04-14 14:19:41.732] [INFO] bufs.totalLength:213
+[2015-04-14 14:19:41.732] [INFO] { member_id: '286',
+  device_type: '2',
+  device_token: 'APA91bHfu96-dIFuhLOCnuwtCCaukg1gyQ7uAoV3BWCWSaYNoMUsOwKZEN4AezNXPcp3CuYnaxrMSnuSFZn20_Ggn2eaUhxhfs00REl6KFIiSXEz70feAgtwxp9heohvh9BwJ6h--HOMWLvZWjcZOQEIcX0cEwEyfA',
+  locale: 'ja' }
+[2015-04-14 14:19:41.733] [INFO] [ '286',
+  '2',
+  'APA91bHfu96-dIFuhLOCnuwtCCaukg1gyQ7uAoV3BWCWSaYNoMUsOwKZEN4AezNXPcp3CuYnaxrMSnuSFZn20_Ggn2eaUhxhfs00REl6KFIiSXEz70feAgtwxp9heohvh9BwJ6h--HOMWLvZWjcZOQEIcX0cEwEyfA',
+  'ja' ]
+[2015-04-14 14:19:41.739] [INFO] { result: 1, id: 1 }
+[2015-04-14 14:19:41.740] [INFO] [RES] /updateDeviceToken result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:19:50.859] [INFO] [REQ] GET /getMngClassList?center_id=71 [182.250.73.103]
+[2015-04-14 14:19:50.860] [INFO] { center_id: '71' }
+[2015-04-14 14:19:50.862] [INFO] [RES] /getMngClassList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:20:11.303] [INFO] [REQ] POST /postClassInfo [182.250.73.103]
+[2015-04-14 14:20:11.303] [INFO] bufs.totalLength:81
+[2015-04-14 14:20:11.303] [INFO] { center_id: '71', class_name: 'バナナ', class_desc: '五歳' }
+[2015-04-14 14:20:11.304] [INFO] [ '71', 'バナナ', '五歳' ]
+[2015-04-14 14:20:11.310] [INFO] [RES] /postClassInfo result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:20:11.663] [INFO] [REQ] GET /getMngClassList?center_id=71 [182.250.73.103]
+[2015-04-14 14:20:11.663] [INFO] { center_id: '71' }
+[2015-04-14 14:20:11.666] [INFO] [RES] /getMngClassList result -> status:OK, message: [182.250.73.103]
+[2015-04-14 14:42:47.079] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 14:42:47.080] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 14:42:47.080] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 14:42:47.082] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 14:42:47.083] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:42:47.419] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 14:42:47.419] [INFO] { member_id: '32' }
+[2015-04-14 14:42:47.421] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 14:42:47.421] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 14:42:47.421] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 14:42:47.421] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:42:47.421] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:42:47.776] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 14:42:47.776] [INFO] { center_id: '20' }
+[2015-04-14 14:42:47.778] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:42:48.001] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 14:42:48.001] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:42:48.003] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:42:48.004] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:42:49.021] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 14:42:49.021] [INFO] { center_id: '20',
+  class_id: '',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:42:49.022] [INFO] [ '20', -1, '32', '1', '10' ]
+[2015-04-14 14:42:49.028] [INFO] [RES] /getNoticeList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:42:57.970] [INFO] [REQ] GET /getNewsList?member_id=32&device_id=1 [61.213.120.148]
+[2015-04-14 14:42:57.970] [INFO] { member_id: '32', device_id: '1' }
+[2015-04-14 14:42:57.972] [INFO] [RES] /getNewsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:16.982] [INFO] [REQ] GET /login?email=jazzdevils@gmail.com&pw=1234 [61.213.120.148]
+[2015-04-14 14:43:16.982] [INFO] { email: 'jazzdevils@gmail.com', pw: '1234' }
+[2015-04-14 14:43:16.982] [INFO] [ 'jazzdevils@gmail.com', '1234' ]
+[2015-04-14 14:43:16.984] [INFO] { login_result: 1,
+  member_id: 190,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'クオン',
+  phonenum: '08035836106',
+  member_img: '/images/main/kids/thm/9e919824b7c49ed3938b084c9ded3d9cf1e59b02.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 128,
+  approval_state: 1,
+  class_id: '200',
+  class_name: 'つくし組',
+  admin_yn: '1' }
+[2015-04-14 14:43:16.985] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:17.046] [INFO] [REQ] GET /access?member_id=190 [61.213.120.148]
+[2015-04-14 14:43:17.046] [INFO] { member_id: '190' }
+[2015-04-14 14:43:17.051] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-04-14 14:43:17.051] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 14:43:17.051] [INFO] { id: 3,
+  type: '1',
+  token: '94553a0de5cf9c860b17d232fa0787cdeeff25fcd8cd2a3f229fef46384be385',
+  locale: 'ja' }
+[2015-04-14 14:43:17.052] [INFO] [RES] /access result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:17.108] [INFO] [REQ] GET /getClassList?center_id=38 [61.213.120.148]
+[2015-04-14 14:43:17.108] [INFO] { center_id: '38' }
+[2015-04-14 14:43:17.111] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:17.235] [INFO] [REQ] GET /setLocale?member_id=190&device_id=1&locale=ja [61.213.120.148]
+[2015-04-14 14:43:17.236] [INFO] { member_id: '190', device_id: '1', locale: 'ja' }
+[2015-04-14 14:43:17.240] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [61.213.120.148]
+[2015-04-14 14:43:17.240] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-04-14 14:43:17.242] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:43:17.243] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:17.256] [INFO] { result: 1 }
+[2015-04-14 14:43:17.256] [INFO] [RES] /setLocale result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:43:20.101] [INFO] [REQ] GET /getCenterAskApprovalList [61.213.120.148]
+[2015-04-14 14:43:20.104] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 14:47:29.541] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [182.250.37.252]
+[2015-04-14 14:47:29.541] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 14:47:29.541] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 14:47:29.543] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 14:47:29.544] [INFO] [RES] /login result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:47:29.921] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [182.250.37.252]
+[2015-04-14 14:47:29.921] [INFO] { member_id: '32' }
+[2015-04-14 14:47:29.923] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 14:47:29.923] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 14:47:29.923] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 14:47:29.923] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:47:29.924] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:47:30.261] [INFO] [REQ] GET /getClassList?center_id=20 [182.250.37.252]
+[2015-04-14 14:47:30.261] [INFO] { center_id: '20' }
+[2015-04-14 14:47:30.263] [INFO] [RES] /getClassList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:47:30.681] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 14:47:30.681] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:47:30.683] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:47:30.684] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:47:31.801] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=&member_id=32&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:47:31.801] [INFO] { center_id: '20',
+  class_id: '',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:47:31.802] [INFO] [ '20', -1, '32', '1', '10' ]
+[2015-04-14 14:47:31.807] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:49:45.876] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 14:49:45.876] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:49:45.879] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:49:45.879] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:49:53.896] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 14:49:53.896] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 14:49:53.898] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 14:49:53.898] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:16.916] [INFO] [REQ] GET /login?email=teacher18@test.com&pw=1234 [182.250.37.252]
+[2015-04-14 14:50:16.916] [INFO] { email: 'teacher18@test.com', pw: '1234' }
+[2015-04-14 14:50:16.916] [INFO] [ 'teacher18@test.com', '1234' ]
+[2015-04-14 14:50:16.919] [INFO] { login_result: 1,
+  member_id: 70,
+  center_id: 16,
+  center_name: 'キッズアップ幼稚園',
+  member_name: '松尾 純子',
+  phonenum: '1234567893',
+  member_img: '/images/main/member/thm/2dacf2013566c8d70e9c2f629fa58e90b719e3e2.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '190',
+  class_name: '亀',
+  admin_yn: '0' }
+[2015-04-14 14:50:16.919] [INFO] [RES] /login result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:17.356] [INFO] [REQ] GET /getDeviceTokens?member_id=70 [182.250.37.252]
+[2015-04-14 14:50:17.356] [INFO] { member_id: '70' }
+[2015-04-14 14:50:17.358] [INFO] { id: 1,
+  type: '1',
+  token: '23b70b4cde1e43b885834f1e3e8b578dbe089f133c91797b2c5975312f118de3',
+  locale: 'ja' }
+[2015-04-14 14:50:17.358] [INFO] { id: 2,
+  type: '1',
+  token: '0e94f286284be58f6b274b106633fcc91cd6ac4965e1b1b702ed731aad0d45e0',
+  locale: 'ko' }
+[2015-04-14 14:50:17.358] [INFO] { id: 3,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 14:50:17.358] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:17.796] [INFO] [REQ] GET /getClassList?center_id=16 [182.250.37.252]
+[2015-04-14 14:50:17.796] [INFO] { center_id: '16' }
+[2015-04-14 14:50:17.801] [INFO] [RES] /getClassList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:18.197] [INFO] [REQ] GET /setLocale?member_id=70&device_id=1&locale=ja [182.250.37.252]
+[2015-04-14 14:50:18.198] [INFO] { member_id: '70', device_id: '1', locale: 'ja' }
+[2015-04-14 14:50:18.235] [INFO] { result: 1 }
+[2015-04-14 14:50:18.235] [INFO] [RES] /setLocale result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:18.306] [INFO] [REQ] GET /getBadge2?member_id=70&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 14:50:18.306] [INFO] { member_id: '70', device_id: '1', kids_id: '' }
+[2015-04-14 14:50:18.308] [INFO] { id: 70,
+  news: 0,
+  manage: 0,
+  contact: 3,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 1 }
+[2015-04-14 14:50:18.308] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:21.296] [INFO] [REQ] GET /setBadge2?member_id=70&badge_name=contact&kids_id= [182.250.37.252]
+[2015-04-14 14:50:21.296] [INFO] { member_id: '70', badge_name: 'contact', kids_id: '' }
+[2015-04-14 14:50:21.303] [INFO] { result: 1 }
+[2015-04-14 14:50:21.303] [INFO] [RES] /setBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:21.636] [INFO] [REQ] GET /getContactList2?center_id=16&month=201504&member_id=70&kids_id=&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:21.636] [INFO] { center_id: '16',
+  month: '201504',
+  member_id: '70',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:50:21.637] [INFO] [ '16', '201504', '70', -1, '1', '10' ]
+[2015-04-14 14:50:21.644] [INFO] [RES] /getContactList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:23.456] [INFO] [REQ] GET /getNoticeList?center_id=16&class_id=&member_id=70&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:23.456] [INFO] { center_id: '16',
+  class_id: '',
+  member_id: '70',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:50:23.457] [INFO] [ '16', -1, '70', '1', '10' ]
+[2015-04-14 14:50:23.463] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:31.787] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=318&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:31.787] [INFO] { notice_id: '318', pageno: '1', pagesize: '10' }
+[2015-04-14 14:50:31.789] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:36.191] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=320&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:36.191] [INFO] { notice_id: '320', pageno: '1', pagesize: '10' }
+[2015-04-14 14:50:36.193] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:38.726] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=327&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:38.726] [INFO] { notice_id: '327', pageno: '1', pagesize: '10' }
+[2015-04-14 14:50:38.729] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:40.656] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=333&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:40.656] [INFO] { notice_id: '333', pageno: '1', pagesize: '10' }
+[2015-04-14 14:50:40.658] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:43.946] [INFO] [REQ] GET /getNoticeList?center_id=16&class_id=&member_id=70&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:43.946] [INFO] { center_id: '16',
+  class_id: '',
+  member_id: '70',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:50:43.947] [INFO] [ '16', -1, '70', '1', '10' ]
+[2015-04-14 14:50:43.953] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:50:44.836] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=334&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:50:44.836] [INFO] { notice_id: '334', pageno: '1', pagesize: '10' }
+[2015-04-14 14:50:44.838] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:05.511] [INFO] [REQ] POST /postNoticeContents [182.250.37.252]
+[2015-04-14 14:51:05.512] [INFO] bufs.totalLength:80
+[2015-04-14 14:51:05.513] [INFO] { type: '2',
+  center_id: '16',
+  class_id: '192',
+  member_id: '70',
+  title: '猫',
+  contents: '猫' }
+[2015-04-14 14:51:05.514] [INFO] [ '2', '16', '192', '70', '猫', '猫' ]
+[2015-04-14 14:51:05.582] [INFO] { notice_id: 365 }
+[2015-04-14 14:51:05.582] [INFO] [RES] /postNoticeContents result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:05.770] [INFO] { multicast_id: 7967019444358545000,
+  success: 1,
+  failure: 0,
+  canonical_ids: 0,
+  results: [ { message_id: '0:1428990665719682%3f4d7078f9fd7ecd' } ] }
+[2015-04-14 14:51:06.056] [INFO] [REQ] GET /getNoticeList?center_id=16&class_id=&member_id=70&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:06.056] [INFO] { center_id: '16',
+  class_id: '',
+  member_id: '70',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 14:51:06.057] [INFO] [ '16', -1, '70', '1', '10' ]
+[2015-04-14 14:51:06.062] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:06.109] [INFO] apns connected
+[2015-04-14 14:51:06.144] [INFO] apns connected
+[2015-04-14 14:51:06.210] [INFO] transmitted to APNS info -> 0e94f286284be58f6b274b106633fcc91cd6ac4965e1b1b702ed731aad0d45e0 - {"custom":{"thread_type":"1","thread_subtype":"1","thread_id":"365"},"aps":{"badge":1,"sound":"default","alert":"공지사항: 猫"}}
+[2015-04-14 14:51:06.245] [INFO] transmitted to APNS info -> 23b70b4cde1e43b885834f1e3e8b578dbe089f133c91797b2c5975312f118de3 - {"custom":{"thread_type":"1","thread_subtype":"1","thread_id":"365"},"aps":{"badge":1,"sound":"default","alert":"お知らせ: 猫"}}
+[2015-04-14 14:51:07.096] [INFO] [REQ] GET /getBadge2?member_id=70&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 14:51:07.096] [INFO] { member_id: '70', device_id: '1', kids_id: '' }
+[2015-04-14 14:51:07.099] [INFO] { id: 70,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 1 }
+[2015-04-14 14:51:07.099] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:09.006] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=365&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:09.006] [INFO] { notice_id: '365', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:09.008] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:11.412] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=365&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:11.412] [INFO] { notice_id: '365', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:11.414] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:13.012] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=365&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:13.012] [INFO] { notice_id: '365', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:13.014] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:14.796] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=365&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:14.796] [INFO] { notice_id: '365', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:14.798] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:17.676] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=334&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:17.676] [INFO] { notice_id: '334', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:17.679] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:20.556] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=333&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:20.556] [INFO] { notice_id: '333', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:20.558] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:23.176] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=327&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:23.176] [INFO] { notice_id: '327', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:23.179] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:26.316] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=320&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:26.316] [INFO] { notice_id: '320', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:26.319] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 14:51:28.096] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=318&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 14:51:28.096] [INFO] { notice_id: '318', pageno: '1', pagesize: '10' }
+[2015-04-14 14:51:28.099] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 15:19:53.273] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 15:19:53.273] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 15:19:53.273] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 15:19:53.276] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 15:19:53.276] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:19:53.359] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 15:19:53.359] [INFO] { member_id: '32' }
+[2015-04-14 15:19:53.361] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 15:19:53.361] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 15:19:53.361] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 15:19:53.361] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 15:19:53.362] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:19:53.422] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 15:19:53.422] [INFO] { center_id: '20' }
+[2015-04-14 15:19:53.425] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:19:53.601] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 15:19:53.601] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 15:19:53.604] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 15:19:53.604] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:40.495] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 15:21:40.495] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 15:21:40.498] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 15:21:40.498] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:43.465] [INFO] [REQ] GET /login?email=encho14@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 15:21:43.465] [INFO] { email: 'encho14@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 15:21:43.465] [INFO] [ 'encho14@kidsup.net', 'kidsup4321' ]
+[2015-04-14 15:21:43.468] [INFO] { login_result: 1,
+  member_id: 131,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '菅原 正樹',
+  phonenum: '09012345678',
+  member_img: '/images/main/member/thm/17c659b17c0e6213e5acb84a991cd7a7510727c2.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 15:21:43.468] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:43.768] [INFO] [REQ] GET /getDeviceTokens?member_id=131 [61.213.120.148]
+[2015-04-14 15:21:43.768] [INFO] { member_id: '131' }
+[2015-04-14 15:21:43.770] [INFO] { id: 1,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 15:21:43.770] [INFO] { id: 2,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 15:21:43.770] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 15:21:43.770] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 15:21:43.771] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:43.837] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 15:21:43.837] [INFO] { center_id: '20' }
+[2015-04-14 15:21:43.840] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:43.974] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 15:21:43.974] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 15:21:43.976] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 15:21:43.977] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:45.277] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=131&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 15:21:45.277] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '131',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 15:21:45.278] [INFO] [ '20', '201504', '131', -1, '1', '10' ]
+[2015-04-14 15:21:45.329] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:48.503] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 15:21:48.503] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 15:21:48.505] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:21:55.628] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 15:21:55.628] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 15:21:55.630] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:22:04.727] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 15:22:04.727] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 15:22:04.729] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:23:38.662] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 15:23:38.662] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 15:23:38.665] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 15:23:38.665] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:23:39.729] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=131&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 15:23:39.729] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '131',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 15:23:39.730] [INFO] [ '20', '201504', '131', -1, '1', '10' ]
+[2015-04-14 15:23:39.772] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:23:42.594] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 15:23:42.594] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 15:23:42.597] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:23:51.571] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 15:23:51.571] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 15:23:51.574] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:41:16.236] [INFO] [REQ] GET /getBadge2?member_id=70&device_id=1&kids_id= [182.250.37.252]
+[2015-04-14 15:41:16.236] [INFO] { member_id: '70', device_id: '1', kids_id: '' }
+[2015-04-14 15:41:16.238] [INFO] { id: 70,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 1 }
+[2015-04-14 15:41:16.239] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 15:51:06.310] [INFO] Connection timeout APNS
+[2015-04-14 15:51:06.311] [INFO] Connection timeout APNS
+[2015-04-14 15:51:06.311] [INFO] Disconnected from APNS
+[2015-04-14 15:51:06.311] [INFO] Disconnected from APNS
+[2015-04-14 15:53:57.919] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 15:53:57.919] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 15:53:57.919] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 15:53:57.922] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 15:53:57.923] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:53:58.023] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 15:53:58.023] [INFO] { member_id: '32' }
+[2015-04-14 15:53:58.025] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 15:53:58.025] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 15:53:58.025] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 15:53:58.025] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 15:53:58.026] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:53:58.078] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 15:53:58.078] [INFO] { center_id: '20' }
+[2015-04-14 15:53:58.080] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:53:58.255] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 15:53:58.255] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 15:53:58.258] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 15:53:58.258] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:53:59.458] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 15:53:59.458] [INFO] { center_id: '20',
+  class_id: '',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 15:53:59.460] [INFO] [ '20', -1, '32', '1', '10' ]
+[2015-04-14 15:53:59.465] [INFO] [RES] /getNoticeList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:54:23.529] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 15:54:23.529] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 15:54:23.530] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 15:54:23.573] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 15:54:25.615] [INFO] [REQ] GET /getEventList?center_id=20&class_id=&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 15:54:25.615] [INFO] { center_id: '20',
+  class_id: '',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 15:54:25.616] [INFO] [ '20', -1, '32', '1', '10' ]
+[2015-04-14 15:54:25.621] [INFO] [RES] /getEventList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:01:11.239] [INFO] [REQ] GET /access?member_id=227 [115.179.109.158]
+[2015-04-14 16:01:11.239] [INFO] { member_id: '227' }
+[2015-04-14 16:01:11.244] [INFO] { id: 1,
+  type: '1',
+  token: '5feabfe861c30c922d062267c71669d6658700d6251aec4ff88ff29bea2385c3',
+  locale: 'ja' }
+[2015-04-14 16:01:11.244] [INFO] [RES] /access result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:11.512] [INFO] [REQ] GET /getClassList?center_id=43 [115.179.109.158]
+[2015-04-14 16:01:11.512] [INFO] { center_id: '43' }
+[2015-04-14 16:01:11.514] [INFO] [RES] /getClassList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:34.197] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:34.198] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:01:34.199] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 16:01:34.203] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:36.747] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=2&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:36.748] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 16:01:36.749] [INFO] [ '43', '201504', '227', '2', '10' ]
+[2015-04-14 16:01:36.752] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:37.334] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:37.334] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:01:37.335] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 16:01:37.339] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:37.984] [INFO] [REQ] GET /getContactList?center_id=43&month=201503&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:37.984] [INFO] { center_id: '43',
+  month: '201503',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:01:37.985] [INFO] [ '43', '201503', '227', '1', '10' ]
+[2015-04-14 16:01:37.989] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:39.236] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:39.236] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:01:39.238] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 16:01:39.257] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:49.006] [INFO] [REQ] GET /getAskApprovalList?center_id=43&member_id=227&member_type=1&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 16:01:49.006] [INFO] { center_id: '43',
+  member_id: '227',
+  member_type: '1',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:01:49.009] [INFO] [RES] /getAskApprovalList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:52.829] [INFO] [REQ] GET /getMngClassList?center_id=43 [115.179.109.158]
+[2015-04-14 16:01:52.829] [INFO] { center_id: '43' }
+[2015-04-14 16:01:52.832] [INFO] [RES] /getMngClassList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:55.389] [INFO] [REQ] GET /getTeacherList?center_id=43 [115.179.109.158]
+[2015-04-14 16:01:55.389] [INFO] { center_id: '43' }
+[2015-04-14 16:01:55.392] [INFO] [RES] /getTeacherList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:01:58.664] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:01:58.664] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:01:58.666] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:02.544] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=232 [115.179.109.158]
+[2015-04-14 16:02:02.544] [INFO] { center_id: '43', class_id: '232' }
+[2015-04-14 16:02:02.552] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:19.010] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 16:02:19.010] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 16:02:19.013] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:02:19.013] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:19.381] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:02:19.381] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:02:19.383] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:22.165] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=233 [115.179.109.158]
+[2015-04-14 16:02:22.165] [INFO] { center_id: '43', class_id: '233' }
+[2015-04-14 16:02:22.167] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:44.488] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:02:44.488] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:02:44.490] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:46.655] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:02:46.655] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:02:46.658] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:49.322] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=234 [115.179.109.158]
+[2015-04-14 16:02:49.322] [INFO] { center_id: '43', class_id: '234' }
+[2015-04-14 16:02:49.325] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:51.104] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 16:02:51.104] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:02:51.105] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 16:02:51.160] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 16:02:51.160] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 16:02:51.162] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:02:51.162] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:51.164] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:52.227] [INFO] [REQ] GET /getContactReplyList2?contact_id=361&member_id=32&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 16:02:52.227] [INFO] { contact_id: '361',
+  member_id: '32',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:02:52.230] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:53.881] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:02:53.881] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:02:53.883] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:56.373] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=32&kids_id=&pageno=1&pagesize=10 [61.213.120.148]
+[2015-04-14 16:02:56.373] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '32',
+  kids_id: '',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:02:56.374] [INFO] [ '20', '201504', '32', -1, '1', '10' ]
+[2015-04-14 16:02:56.383] [INFO] [RES] /getContactList2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:56.887] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=231 [115.179.109.158]
+[2015-04-14 16:02:56.887] [INFO] { center_id: '43', class_id: '231' }
+[2015-04-14 16:02:56.890] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:02:59.137] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 16:02:59.138] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 16:02:59.140] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:02:59.283] [INFO] [REQ] GET /getKidsList?center_id=43&class_id=235 [115.179.109.158]
+[2015-04-14 16:02:59.283] [INFO] { center_id: '43', class_id: '235' }
+[2015-04-14 16:02:59.285] [INFO] [RES] /getKidsList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 16:03:06.461] [INFO] [REQ] GET /getKidsList?center_id=20&class_id=205 [61.213.120.148]
+[2015-04-14 16:03:06.461] [INFO] { center_id: '20', class_id: '205' }
+[2015-04-14 16:03:06.464] [INFO] [RES] /getKidsList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 16:30:34.504] [INFO] [REQ] GET /getBadge?member_id=284&device_id=1 [126.26.20.170]
+[2015-04-14 16:30:34.504] [INFO] { member_id: '284', device_id: '1' }
+[2015-04-14 16:30:34.506] [INFO] { id: 284,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:30:34.507] [INFO] [RES] /getBadge result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:30:36.695] [INFO] [REQ] GET /getNoticeList?center_id=43&class_id=234&member_id=284&pageno=1&pagesize=10 [126.26.20.170]
+[2015-04-14 16:30:36.696] [INFO] { center_id: '43',
+  class_id: '234',
+  member_id: '284',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:30:36.697] [INFO] [ '43', '234', '284', '1', '10' ]
+[2015-04-14 16:30:36.700] [INFO] [RES] /getNoticeList result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:30:40.166] [INFO] [REQ] GET /setLocale?member_id=284&device_id=1&locale=ja [126.26.20.170]
+[2015-04-14 16:30:40.166] [INFO] { member_id: '284', device_id: '1', locale: 'ja' }
+[2015-04-14 16:30:40.230] [INFO] { result: 1 }
+[2015-04-14 16:30:40.230] [INFO] [RES] /setLocale result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:30:40.283] [INFO] [REQ] GET /getBadge?member_id=284&device_id=1 [126.26.20.170]
+[2015-04-14 16:30:40.283] [INFO] { member_id: '284', device_id: '1' }
+[2015-04-14 16:30:40.286] [INFO] { id: 284,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:30:40.286] [INFO] [RES] /getBadge result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:30:45.682] [INFO] [REQ] GET /setLocale?member_id=284&device_id=1&locale=ja [126.26.20.170]
+[2015-04-14 16:30:45.682] [INFO] { member_id: '284', device_id: '1', locale: 'ja' }
+[2015-04-14 16:30:45.689] [INFO] { result: 1 }
+[2015-04-14 16:30:45.689] [INFO] [RES] /setLocale result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:30:45.799] [INFO] [REQ] GET /getBadge?member_id=284&device_id=1 [126.26.20.170]
+[2015-04-14 16:30:45.799] [INFO] { member_id: '284', device_id: '1' }
+[2015-04-14 16:30:45.802] [INFO] { id: 284,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:30:45.802] [INFO] [RES] /getBadge result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:32:01.019] [INFO] [REQ] GET /getBadge?member_id=284&device_id=1 [126.26.20.170]
+[2015-04-14 16:32:01.019] [INFO] { member_id: '284', device_id: '1' }
+[2015-04-14 16:32:01.022] [INFO] { id: 284,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 16:32:01.022] [INFO] [RES] /getBadge result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:32:06.436] [INFO] [REQ] GET /getDailyMenuList?center_id=43&class_id=234&pageno=1&pagesize=5 [126.26.20.170]
+[2015-04-14 16:32:06.436] [INFO] { center_id: '43', class_id: '234', pageno: '1', pagesize: '5' }
+[2015-04-14 16:32:06.439] [INFO] [RES] /getDailyMenuList result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:32:10.106] [INFO] [REQ] GET /getNewsList?member_id=284&device_id=1 [126.26.20.170]
+[2015-04-14 16:32:10.106] [INFO] { member_id: '284', device_id: '1' }
+[2015-04-14 16:32:10.109] [INFO] [RES] /getNewsList result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:32:14.132] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=284&pageno=1&pagesize=10 [126.26.20.170]
+[2015-04-14 16:32:14.132] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '284',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:32:14.133] [INFO] [ '43', '201504', '284', '1', '10' ]
+[2015-04-14 16:32:14.137] [INFO] [RES] /getContactList result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:32:26.981] [INFO] [REQ] GET /getScheduleList?center_id=43&member_id=284&month=201504 [126.26.20.170]
+[2015-04-14 16:32:26.981] [INFO] { center_id: '43', member_id: '284', month: '201504' }
+[2015-04-14 16:32:26.984] [INFO] [RES] /getScheduleList result -> status:OK, message: [126.26.20.170]
+[2015-04-14 16:53:47.431] [INFO] [REQ] GET /login?email=mother1238@kidsup.net&pw=kidsup4321 [182.250.37.252]
+[2015-04-14 16:53:47.432] [INFO] { email: 'mother1238@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 16:53:47.432] [INFO] [ 'mother1238@kidsup.net', 'kidsup4321' ]
+[2015-04-14 16:53:47.435] [INFO] { login_result: 1,
+  member_id: 21,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '黒木　メイサ',
+  phonenum: '010-1111-2222',
+  member_img: '/images/main/kids/thm/18edaf2f6d2b0a1583e9fab797647e63d8b371f0.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 8,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 16:53:47.435] [INFO] [RES] /login result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:53:47.752] [INFO] [REQ] GET /access?member_id=21 [182.250.37.252]
+[2015-04-14 16:53:47.753] [INFO] { member_id: '21' }
+[2015-04-14 16:53:47.757] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 16:53:47.757] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 16:53:47.757] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 16:53:47.757] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 16:53:47.758] [INFO] [RES] /access result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:53:48.023] [INFO] [REQ] GET /getClassList?center_id=20 [182.250.37.252]
+[2015-04-14 16:53:48.023] [INFO] { center_id: '20' }
+[2015-04-14 16:53:48.025] [INFO] [RES] /getClassList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:53:48.473] [INFO] [REQ] GET /getBadge2?member_id=21&device_id=1&kids_id=8 [182.250.37.252]
+[2015-04-14 16:53:48.474] [INFO] { member_id: '21', device_id: '1', kids_id: '8' }
+[2015-04-14 16:53:48.476] [INFO] { id: 21,
+  news: 8,
+  manage: 0,
+  contact: 0,
+  notice: 4,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-04-14 16:53:48.476] [INFO] [RES] /getBadge2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:53:52.432] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=21&kids_id=8&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:53:52.432] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '21',
+  kids_id: '8',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:53:52.433] [INFO] [ '20', '201504', '21', '8', '1', '10' ]
+[2015-04-14 16:53:52.475] [INFO] [RES] /getContactList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:53:54.130] [INFO] [REQ] GET /getContactReplyList2?contact_id=361&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:53:54.131] [INFO] { contact_id: '361',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:53:54.133] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:00.247] [INFO] [REQ] GET /getContactReplyList2?contact_id=360&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:00.247] [INFO] { contact_id: '360',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:00.250] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:02.026] [INFO] [REQ] GET /getContactReplyList2?contact_id=361&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:02.027] [INFO] { contact_id: '361',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:02.033] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:03.635] [INFO] [REQ] GET /getContactReplyList2?contact_id=360&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:03.635] [INFO] { contact_id: '360',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:03.638] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:05.194] [INFO] [REQ] GET /getContactReplyList2?contact_id=359&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:05.194] [INFO] { contact_id: '359',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:05.197] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:08.847] [INFO] [REQ] GET /getContactReplyList2?contact_id=361&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:08.847] [INFO] { contact_id: '361',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:08.850] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:10.667] [INFO] [REQ] GET /getContactReplyList2?contact_id=360&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:10.667] [INFO] { contact_id: '360',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:10.670] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:12.256] [INFO] [REQ] GET /getContactList2?center_id=20&month=201504&member_id=21&kids_id=8&pageno=2&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:12.256] [INFO] { center_id: '20',
+  month: '201504',
+  member_id: '21',
+  kids_id: '8',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 16:54:12.257] [INFO] [ '20', '201504', '21', '8', '2', '10' ]
+[2015-04-14 16:54:12.302] [INFO] [RES] /getContactList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:12.785] [INFO] [REQ] GET /getContactReplyList2?contact_id=359&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:12.785] [INFO] { contact_id: '359',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:12.788] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:15.156] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [182.250.37.252]
+[2015-04-14 16:54:15.156] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 16:54:15.159] [INFO] [RES] /getNewsList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:18.327] [INFO] [REQ] GET /getNewsList?member_id=21&device_id=1 [182.250.37.252]
+[2015-04-14 16:54:18.328] [INFO] { member_id: '21', device_id: '1' }
+[2015-04-14 16:54:18.331] [INFO] [RES] /getNewsList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:22.077] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:22.078] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:22.079] [INFO] [ '20', '205', '21', '1', '10' ]
+[2015-04-14 16:54:22.085] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:23.784] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=2&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:23.785] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '2',
+  pagesize: '10' }
+[2015-04-14 16:54:23.786] [INFO] [ '20', '205', '21', '2', '10' ]
+[2015-04-14 16:54:23.791] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:28.436] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=346&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:28.437] [INFO] { notice_id: '346', pageno: '1', pagesize: '10' }
+[2015-04-14 16:54:28.440] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:29.597] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=346&pageno=2&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:29.597] [INFO] { notice_id: '346', pageno: '2', pagesize: '10' }
+[2015-04-14 16:54:29.599] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:31.052] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=344&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:31.052] [INFO] { notice_id: '344', pageno: '1', pagesize: '10' }
+[2015-04-14 16:54:31.065] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:32.056] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=344&pageno=2&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:32.056] [INFO] { notice_id: '344', pageno: '2', pagesize: '10' }
+[2015-04-14 16:54:32.059] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:32.926] [INFO] [REQ] GET /getNoticeReplyList2?notice_id=344&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:32.926] [INFO] { notice_id: '344', pageno: '1', pagesize: '10' }
+[2015-04-14 16:54:32.929] [INFO] [RES] /getNoticeReplyList2 result -> status:OK, message: [182.250.37.252]
+[2015-04-14 16:54:35.586] [INFO] [REQ] GET /getNoticeList?center_id=20&class_id=205&member_id=21&pageno=1&pagesize=10 [182.250.37.252]
+[2015-04-14 16:54:35.586] [INFO] { center_id: '20',
+  class_id: '205',
+  member_id: '21',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 16:54:35.587] [INFO] [ '20', '205', '21', '1', '10' ]
+[2015-04-14 16:54:35.615] [INFO] [RES] /getNoticeList result -> status:OK, message: [182.250.37.252]
+[2015-04-14 17:06:36.496] [INFO] [REQ] GET /login?email=encho14@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 17:06:36.496] [INFO] { email: 'encho14@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 17:06:36.496] [INFO] [ 'encho14@kidsup.net', 'kidsup4321' ]
+[2015-04-14 17:06:36.499] [INFO] { login_result: 1,
+  member_id: 131,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '菅原 正樹',
+  phonenum: '09012345678',
+  member_img: '/images/main/member/thm/17c659b17c0e6213e5acb84a991cd7a7510727c2.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 17:06:36.499] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:06:36.604] [INFO] [REQ] GET /getDeviceTokens?member_id=131 [61.213.120.148]
+[2015-04-14 17:06:36.604] [INFO] { member_id: '131' }
+[2015-04-14 17:06:36.606] [INFO] { id: 1,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 17:06:36.606] [INFO] { id: 2,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 17:06:36.606] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 17:06:36.606] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 17:06:36.606] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:06:36.692] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 17:06:36.692] [INFO] { center_id: '20' }
+[2015-04-14 17:06:36.694] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:06:36.871] [INFO] [REQ] GET /getBadge2?member_id=131&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 17:06:36.871] [INFO] { member_id: '131', device_id: '1', kids_id: '' }
+[2015-04-14 17:06:36.873] [INFO] { id: 131,
+  news: 7,
+  manage: 0,
+  contact: 7,
+  notice: 1,
+  event: 0,
+  dailymenu: 4,
+  mamatalk: 0 }
+[2015-04-14 17:06:36.873] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:08:55.584] [ERROR] *** Https Client Error:socket hang up
+[2015-04-14 17:17:04.011] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 17:17:04.011] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 17:17:04.011] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 17:17:04.014] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 17:17:04.014] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:17:04.388] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 17:17:04.388] [INFO] { member_id: '32' }
+[2015-04-14 17:17:04.391] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 17:17:04.391] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 17:17:04.391] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 17:17:04.391] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 17:17:04.392] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:17:04.507] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 17:17:04.507] [INFO] { center_id: '20' }
+[2015-04-14 17:17:04.510] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:17:04.668] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 17:17:04.668] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 17:17:04.671] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 17:17:04.671] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:17:05.698] [INFO] [REQ] GET /getMemberInfo?member_id=32 [61.213.120.148]
+[2015-04-14 17:17:05.698] [INFO] { member_id: '32' }
+[2015-04-14 17:17:05.698] [INFO] [ '32' ]
+[2015-04-14 17:17:05.700] [INFO] { member_type: '2',
+  center_id: 20,
+  center_type: 2,
+  center_name: 'レインボウ幼稚園',
+  invitation_code: '6A694CE5',
+  country_id: 1,
+  country_name: '日本',
+  state_id: 13,
+  state_name: '東京都',
+  city_id: 4,
+  city_name: '新宿区',
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  img: 'c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg' }
+[2015-04-14 17:17:05.701] [INFO] [RES] /getMemberInfo result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:17:10.359] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 17:17:10.359] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 17:17:10.361] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 17:17:10.361] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:18:43.370] [INFO] [REQ] GET /login?email=teacher8@kidsup.net&pw=kidsup4321 [61.213.120.148]
+[2015-04-14 17:18:43.370] [INFO] { email: 'teacher8@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 17:18:43.370] [INFO] [ 'teacher8@kidsup.net', 'kidsup4321' ]
+[2015-04-14 17:18:43.372] [INFO] { login_result: 1,
+  member_id: 32,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  member_img: '/images/main/member/thm/c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg',
+  member_type: '2',
+  member_subtype: '1',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 17:18:43.373] [INFO] [RES] /login result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:18:43.728] [INFO] [REQ] GET /getDeviceTokens?member_id=32 [61.213.120.148]
+[2015-04-14 17:18:43.728] [INFO] { member_id: '32' }
+[2015-04-14 17:18:43.730] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 17:18:43.730] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 17:18:43.730] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 17:18:43.730] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 17:18:43.731] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:18:44.056] [INFO] [REQ] GET /getClassList?center_id=20 [61.213.120.148]
+[2015-04-14 17:18:44.056] [INFO] { center_id: '20' }
+[2015-04-14 17:18:44.058] [INFO] [RES] /getClassList result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:18:44.225] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 17:18:44.225] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 17:18:44.228] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 17:18:44.228] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 17:18:45.920] [INFO] [REQ] GET /getMemberInfo?member_id=32 [61.213.120.148]
+[2015-04-14 17:18:45.920] [INFO] { member_id: '32' }
+[2015-04-14 17:18:45.920] [INFO] [ '32' ]
+[2015-04-14 17:18:45.922] [INFO] { member_type: '2',
+  center_id: 20,
+  center_type: 2,
+  center_name: 'レインボウ幼稚園',
+  invitation_code: '6A694CE5',
+  country_id: 1,
+  country_name: '日本',
+  state_id: 13,
+  state_name: '東京都',
+  city_id: 4,
+  city_name: '新宿区',
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  member_name: '北沢　美穂',
+  phonenum: '01011112222',
+  img: 'c55944078ae5d528e19a0963cd9b7428a170fe1f.jpg' }
+[2015-04-14 17:18:45.922] [INFO] [RES] /getMemberInfo result -> status:OK, message: [61.213.120.148]
+[2015-04-14 18:07:03.442] [INFO] [REQ] GET /getBadge2?member_id=32&device_id=1&kids_id= [61.213.120.148]
+[2015-04-14 18:07:03.442] [INFO] { member_id: '32', device_id: '1', kids_id: '' }
+[2015-04-14 18:07:03.444] [INFO] { id: 32,
+  news: 6,
+  manage: 0,
+  contact: 1,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 18:07:03.444] [INFO] [RES] /getBadge2 result -> status:OK, message: [61.213.120.148]
+[2015-04-14 18:14:17.196] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 18:14:17.196] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 18:14:17.197] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 18:14:17.201] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 18:26:15.515] [INFO] [REQ] GET /getCenterTypeList?country_id=1 [121.3.235.249]
+[2015-04-14 18:26:15.515] [INFO] { country_id: '1' }
+[2015-04-14 18:26:15.518] [INFO] [RES] /getCenterTypeList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:26:19.710] [INFO] [REQ] GET /getCountryList [121.3.235.249]
+[2015-04-14 18:26:19.710] [INFO] {}
+[2015-04-14 18:26:19.712] [INFO] [RES] /getCountryList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:26:21.429] [INFO] [REQ] GET /getStateList?country_id=1&center_type=1&cnt_flag=0 [121.3.235.249]
+[2015-04-14 18:26:21.429] [INFO] { country_id: '1', center_type: '1', cnt_flag: '0' }
+[2015-04-14 18:26:21.432] [INFO] [RES] /getStateList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:26:24.162] [INFO] [REQ] GET /getCityList?state_id=1&center_type=1&cnt_flag=0 [121.3.235.249]
+[2015-04-14 18:26:24.162] [INFO] { state_id: '1', center_type: '1', cnt_flag: '0' }
+[2015-04-14 18:26:24.166] [INFO] [RES] /getCityList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:30.244] [INFO] [REQ] GET /emailCheck?email=jun16@co.jp [121.3.235.249]
+[2015-04-14 18:27:30.244] [INFO] { email: 'jun16@co.jp' }
+[2015-04-14 18:27:30.244] [INFO] [ 'jun16@co.jp' ]
+[2015-04-14 18:27:30.246] [INFO] { email_check: 0 }
+[2015-04-14 18:27:30.246] [INFO] [RES] /emailCheck result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:30.358] [INFO] [REQ] POST /postMemberType1Info [121.3.235.249]
+[2015-04-14 18:27:30.358] [INFO] { host: 'www.kidsup.net:5057',
+  'content-type': 'multipart/form-data; charset=UTF-8',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': '%E3%82%AD%E3%83%83%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97/2015.04.072114 CFNetwork/711.1.16 Darwin/14.0.0',
+  'content-length': '625482',
+  'accept-language': 'ja-jp',
+  'accept-encoding': 'gzip, deflate' }
+[2015-04-14 18:27:30.453] [INFO] bufs.totalLength:625482
+[2015-04-14 18:27:30.493] [INFO] [ '1',
+  '1',
+  '1',
+  '1',
+  '1',
+  'キッズアップ保育園',
+  '林先生',
+  'jun16@co.jp',
+  '1234',
+  '090000',
+  'キッズアップ' ]
+[2015-04-14 18:27:30.493] [INFO] filename:3B117DF2_745A_4DFA_7219_12B7E2CA9FCF.jpg
+[2015-04-14 18:27:30.617] [INFO] /var/www/html/images/main/member/thm/9a832b9f8111cfbc6118eff744031f766a76a24d.jpg - done
+[2015-04-14 18:27:30.679] [INFO] { result: 287, center_id: 72 }
+[2015-04-14 18:27:30.679] [INFO] [RES] /postMemberType1Info result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:30.683] [INFO] <!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsUp</title>
+</head>
+<body>
+<table>
+<tr>
+    <td valign='top'>
+        <div>キッズアップ保育園様<br><br>この度はキッズアップサービスにご登録いただきまして、誠にありがとうございます。<br><br>下記のＵＲＬにアクセスすると、キッズアップのサービスがすぐにご利用頂けます。<br><br>アクセスがされてない場合は、キッズアップスタッフからのご連絡がある場合もございます。<br><br>このメールは自動返信にてお送りしております。<br>※お問い合わせの際は、このままご返信頂ければ結構です。</div><br>
+        <div><a href="http://web.kidsup.net/servicestart/4328632b5b28bdc8cd44b728f61fadba/ja">キッズアップサービス開始</a></div><br>
+        <div>©2015 ZeroFive .LLC</div>
+    <td>
+</tr>
+</table>
+</body>
+</html>
+[2015-04-14 18:27:30.691] [ERROR] { [Error: Sending failed]
+  errors: [ { [Error: queryMx ENODATA] code: 'ENODATA', errno: 'ENODATA', syscall: 'queryMx' } ] }
+Error: Sending failed
+    at DirectMailer.domains.forEach.item.callback (/home/ec2-user/KidsLink/webapi/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/direct-transport.js:135:41)
+    at DirectMailer.<anonymous> (/home/ec2-user/KidsLink/webapi/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/direct-transport.js:193:22)
+    at asyncCallback (dns.js:68:16)
+    at Object.onanswer [as oncomplete] (dns.js:149:9)
+[2015-04-14 18:27:51.200] [INFO] [REQ] GET /login?email=jun@0-start.jp&pw=1234 [121.3.235.249]
+[2015-04-14 18:27:51.200] [INFO] { email: 'jun@0-start.jp', pw: '1234' }
+[2015-04-14 18:27:51.200] [INFO] [ 'jun@0-start.jp', '1234' ]
+[2015-04-14 18:27:51.202] [INFO] { login_result: 1,
+  member_id: 188,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: '林 先生',
+  phonenum: '09061792840',
+  member_img: '/images/main/member/thm/d17d49344b7cac4e4cdbc2c5797e7253de829ac4.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '1' }
+[2015-04-14 18:27:51.203] [INFO] [RES] /login result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:51.286] [INFO] [REQ] GET /getDeviceTokens?member_id=188 [121.3.235.249]
+[2015-04-14 18:27:51.286] [INFO] { member_id: '188' }
+[2015-04-14 18:27:51.287] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 18:27:51.288] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 18:27:51.288] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:51.360] [INFO] [REQ] GET /getClassList?center_id=38 [121.3.235.249]
+[2015-04-14 18:27:51.360] [INFO] { center_id: '38' }
+[2015-04-14 18:27:51.362] [INFO] [RES] /getClassList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:51.553] [INFO] [REQ] GET /setLocale?member_id=188&device_id=1&locale=ja [121.3.235.249]
+[2015-04-14 18:27:51.553] [INFO] { member_id: '188', device_id: '1', locale: 'ja' }
+[2015-04-14 18:27:51.555] [INFO] [REQ] GET /getBadge2?member_id=188&device_id=1&kids_id= [121.3.235.249]
+[2015-04-14 18:27:51.555] [INFO] { member_id: '188', device_id: '1', kids_id: '' }
+[2015-04-14 18:27:51.557] [INFO] { id: 188,
+  news: 0,
+  manage: 0,
+  contact: 4,
+  notice: 6,
+  event: 3,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 18:27:51.558] [INFO] [RES] /getBadge2 result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:51.590] [INFO] { result: 1 }
+[2015-04-14 18:27:51.591] [INFO] [RES] /setLocale result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:27:55.291] [INFO] [REQ] GET /getCenterAskApprovalList [121.3.235.249]
+[2015-04-14 18:27:55.294] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:01.197] [INFO] [REQ] GET /doCenterAskApprove?center_id=72 [121.3.235.249]
+[2015-04-14 18:28:01.197] [INFO] { center_id: '72' }
+[2015-04-14 18:28:01.203] [INFO] { result: 1 }
+[2015-04-14 18:28:01.203] [INFO] [RES] /doCenterAskApprove result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:21.737] [INFO] [REQ] GET /login?email=jun16@co.jp&pw=1234 [121.3.235.249]
+[2015-04-14 18:28:21.737] [INFO] { email: 'jun16@co.jp', pw: '1234' }
+[2015-04-14 18:28:21.737] [INFO] [ 'jun16@co.jp', '1234' ]
+[2015-04-14 18:28:21.740] [INFO] { login_result: 1,
+  member_id: 287,
+  center_id: 72,
+  center_name: 'キッズアップ保育園',
+  member_name: '林先生',
+  phonenum: '090000',
+  member_img: '/images/main/member/thm/9a832b9f8111cfbc6118eff744031f766a76a24d.jpg',
+  member_type: '1',
+  member_subtype: '',
+  kids_id: -1,
+  approval_state: 1,
+  class_id: '',
+  class_name: '',
+  admin_yn: '0' }
+[2015-04-14 18:28:21.740] [INFO] [RES] /login result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:21.835] [INFO] [REQ] GET /getDeviceTokens?member_id=287 [121.3.235.249]
+[2015-04-14 18:28:21.835] [INFO] { member_id: '287' }
+[2015-04-14 18:28:21.837] [INFO] [RES] /getDeviceTokens result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:21.906] [INFO] [REQ] GET /getClassList?center_id=72 [121.3.235.249]
+[2015-04-14 18:28:21.906] [INFO] { center_id: '72' }
+[2015-04-14 18:28:21.908] [INFO] [RES] /getClassList result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:22.054] [INFO] [REQ] POST /updateDeviceToken [121.3.235.249]
+[2015-04-14 18:28:22.054] [INFO] bufs.totalLength:115
+[2015-04-14 18:28:22.054] [INFO] { member_id: '287',
+  device_type: '1',
+  device_token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 18:28:22.055] [INFO] [ '287',
+  '1',
+  '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  'ja' ]
+[2015-04-14 18:28:22.062] [INFO] { result: 1, id: 1 }
+[2015-04-14 18:28:22.062] [INFO] [RES] /updateDeviceToken result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:35.599] [INFO] [REQ] GET /getBadge2?member_id=287&device_id=1&kids_id= [121.3.235.249]
+[2015-04-14 18:28:35.599] [INFO] { member_id: '287', device_id: '1', kids_id: '' }
+[2015-04-14 18:28:35.601] [INFO] { id: 287,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 18:28:35.602] [INFO] [RES] /getBadge2 result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:28:46.864] [INFO] [REQ] GET /getBadge2?member_id=287&device_id=1&kids_id= [121.3.235.249]
+[2015-04-14 18:28:46.864] [INFO] { member_id: '287', device_id: '1', kids_id: '' }
+[2015-04-14 18:28:46.866] [INFO] { id: 287,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 18:28:46.866] [INFO] [RES] /getBadge2 result -> status:OK, message: [121.3.235.249]
+[2015-04-14 18:30:01.119] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 18:30:01.119] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 18:30:01.120] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 18:30:01.124] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 18:30:02.924] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 18:30:02.924] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 18:30:02.925] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 18:30:02.932] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 18:30:04.630] [INFO] [REQ] GET /getContactReplyList?contact_id=371&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 18:30:04.630] [INFO] { contact_id: '371',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 18:30:04.632] [INFO] [RES] /getContactReplyList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 19:12:11.455] [INFO] [REQ] GET /getContactList?center_id=43&month=201504&member_id=227&pageno=1&pagesize=10 [115.179.109.158]
+[2015-04-14 19:12:11.455] [INFO] { center_id: '43',
+  month: '201504',
+  member_id: '227',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 19:12:11.456] [INFO] [ '43', '201504', '227', '1', '10' ]
+[2015-04-14 19:12:11.460] [INFO] [RES] /getContactList result -> status:OK, message: [115.179.109.158]
+[2015-04-14 19:20:16.085] [INFO] [REQ] GET /access?member_id=274 [126.255.97.22]
+[2015-04-14 19:20:16.085] [INFO] { member_id: '274' }
+[2015-04-14 19:20:16.089] [INFO] { id: 1,
+  type: '1',
+  token: '7da30301c764ccfe9901f0485c1eff92107a50448599c6b062e0498c5db3069c',
+  locale: 'ja' }
+[2015-04-14 19:20:16.090] [INFO] [RES] /access result -> status:OK, message: [126.255.97.22]
+[2015-04-14 19:20:16.346] [INFO] [REQ] GET /getClassList?center_id=43 [126.255.97.22]
+[2015-04-14 19:20:16.346] [INFO] { center_id: '43' }
+[2015-04-14 19:20:16.348] [INFO] [RES] /getClassList result -> status:OK, message: [126.255.97.22]
+[2015-04-14 19:20:16.965] [INFO] [REQ] GET /setLocale?member_id=274&device_id=1&locale=ja [126.255.97.22]
+[2015-04-14 19:20:16.965] [INFO] { member_id: '274', device_id: '1', locale: 'ja' }
+[2015-04-14 19:20:16.965] [INFO] [REQ] GET /getBadge?member_id=274&device_id=1 [126.255.97.22]
+[2015-04-14 19:20:16.965] [INFO] { member_id: '274', device_id: '1' }
+[2015-04-14 19:20:16.968] [INFO] { id: 274,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 19:20:16.968] [INFO] [RES] /getBadge result -> status:OK, message: [126.255.97.22]
+[2015-04-14 19:20:16.985] [INFO] { result: 1 }
+[2015-04-14 19:20:16.985] [INFO] [RES] /setLocale result -> status:OK, message: [126.255.97.22]
+[2015-04-14 19:20:19.345] [INFO] [REQ] GET /getNewsList?member_id=274&device_id=1 [126.255.97.22]
+[2015-04-14 19:20:19.345] [INFO] { member_id: '274', device_id: '1' }
+[2015-04-14 19:20:19.348] [INFO] [RES] /getNewsList result -> status:OK, message: [126.255.97.22]
+[2015-04-14 19:24:54.292] [INFO] [REQ] GET /getBadge?member_id=274&device_id=1 [126.255.97.22]
+[2015-04-14 19:24:54.292] [INFO] { member_id: '274', device_id: '1' }
+[2015-04-14 19:24:54.295] [INFO] { id: 274,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 19:24:54.295] [INFO] [RES] /getBadge result -> status:OK, message: [126.255.97.22]
+[2015-04-14 21:13:02.107] [INFO] [REQ] GET /login?email=mother1238@kidsup.net&pw=kidsup4321 [106.129.175.17]
+[2015-04-14 21:13:02.107] [INFO] { email: 'mother1238@kidsup.net', pw: 'kidsup4321' }
+[2015-04-14 21:13:02.107] [INFO] [ 'mother1238@kidsup.net', 'kidsup4321' ]
+[2015-04-14 21:13:02.112] [INFO] { login_result: 1,
+  member_id: 21,
+  center_id: 20,
+  center_name: 'レインボウ幼稚園',
+  member_name: '黒木　メイサ',
+  phonenum: '010-1111-2222',
+  member_img: '/images/main/kids/thm/18edaf2f6d2b0a1583e9fab797647e63d8b371f0.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 8,
+  approval_state: 1,
+  class_id: '205',
+  class_name: 'ヒヨコ',
+  admin_yn: '0' }
+[2015-04-14 21:13:02.112] [INFO] [RES] /login result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:13:02.473] [INFO] [REQ] GET /access?member_id=21 [106.129.175.17]
+[2015-04-14 21:13:02.473] [INFO] { member_id: '21' }
+[2015-04-14 21:13:02.482] [INFO] { id: 1,
+  type: '1',
+  token: '98a19f7534d823ddb02047f9c414423060bca29341f3aa92ed313262926af94b',
+  locale: 'ja' }
+[2015-04-14 21:13:02.482] [INFO] { id: 2,
+  type: '1',
+  token: '9de8be9797ac2c65ee98081b9c304d4feef33f06efe02fc60a8d292f7c1fdf8a',
+  locale: 'ja' }
+[2015-04-14 21:13:02.482] [INFO] { id: 3,
+  type: '1',
+  token: '3da560ecfb2899ac57936981f39a09fbcd83ff6b9fcd814bbd4bc9463070570e',
+  locale: 'en' }
+[2015-04-14 21:13:02.482] [INFO] { id: 4,
+  type: '2',
+  token: 'APA91bGIchESE5AoJ3sWFflKxGH2m2ztkcN5wDkVA8tOCpjOHvk-UKkHRkIpSjt4kAzdXlFC84VK-WtStgo-wO0AjNmnUxTCbXmfFegCv9sifke7IFm-trayl8Od5hUZ26gjGO7PHlhMakiuW7i-zR15a_4jx7rc5w',
+  locale: 'ja' }
+[2015-04-14 21:13:02.482] [INFO] [RES] /access result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:13:02.796] [INFO] [REQ] GET /getClassList?center_id=20 [106.129.175.17]
+[2015-04-14 21:13:02.796] [INFO] { center_id: '20' }
+[2015-04-14 21:13:02.798] [INFO] [RES] /getClassList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:13:03.317] [INFO] [REQ] GET /getBadge2?member_id=21&device_id=1&kids_id=8 [106.129.175.17]
+[2015-04-14 21:13:03.317] [INFO] { member_id: '21', device_id: '1', kids_id: '8' }
+[2015-04-14 21:13:03.319] [INFO] { id: 21,
+  news: 8,
+  manage: 0,
+  contact: 0,
+  notice: 4,
+  event: 0,
+  dailymenu: 2,
+  mamatalk: 0 }
+[2015-04-14 21:13:03.319] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:49.932] [INFO] [REQ] GET /login?email=jazzdevils@gmail.com&pw=1234 [106.129.175.17]
+[2015-04-14 21:29:49.932] [INFO] { email: 'jazzdevils@gmail.com', pw: '1234' }
+[2015-04-14 21:29:49.932] [INFO] [ 'jazzdevils@gmail.com', '1234' ]
+[2015-04-14 21:29:49.935] [INFO] { login_result: 1,
+  member_id: 190,
+  center_id: 38,
+  center_name: 'キッズアップ保育園',
+  member_name: 'クオン',
+  phonenum: '08035836106',
+  member_img: '/images/main/kids/thm/9e919824b7c49ed3938b084c9ded3d9cf1e59b02.jpg',
+  member_type: '3',
+  member_subtype: '',
+  kids_id: 128,
+  approval_state: 1,
+  class_id: '200',
+  class_name: 'つくし組',
+  admin_yn: '1' }
+[2015-04-14 21:29:49.935] [INFO] [RES] /login result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:50.212] [INFO] [REQ] GET /access?member_id=190 [106.129.175.17]
+[2015-04-14 21:29:50.212] [INFO] { member_id: '190' }
+[2015-04-14 21:29:50.217] [INFO] { id: 1,
+  type: '1',
+  token: '9e7d59b1665c7be601b1556dcdb015c59a12e4b3397901bc30796e37e52f54f0',
+  locale: 'ja' }
+[2015-04-14 21:29:50.217] [INFO] { id: 2,
+  type: '2',
+  token: 'APA91bHpBLQ8MxZiVu3F0fB6g6iDvN8YNU2gcdtYceR3A3KreOLEIyhhExG4zkHMK8khnPzf2RBdx6lpqJGua57p0OjSsvf7AEz0_ZSX7fZ0MHvkhacTb_oLuUHPxjIsHbhIZvlYNtncoSLi3yPs7OTsrUHBs5Ym5Q',
+  locale: 'ja' }
+[2015-04-14 21:29:50.217] [INFO] { id: 3,
+  type: '1',
+  token: '94553a0de5cf9c860b17d232fa0787cdeeff25fcd8cd2a3f229fef46384be385',
+  locale: 'ja' }
+[2015-04-14 21:29:50.217] [INFO] [RES] /access result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:50.491] [INFO] [REQ] GET /getClassList?center_id=38 [106.129.175.17]
+[2015-04-14 21:29:50.491] [INFO] { center_id: '38' }
+[2015-04-14 21:29:50.493] [INFO] [RES] /getClassList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:50.840] [INFO] [REQ] GET /setLocale?member_id=190&device_id=1&locale=ja [106.129.175.17]
+[2015-04-14 21:29:50.840] [INFO] { member_id: '190', device_id: '1', locale: 'ja' }
+[2015-04-14 21:29:50.841] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.129.175.17]
+[2015-04-14 21:29:50.841] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-04-14 21:29:50.843] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 21:29:50.843] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:50.875] [INFO] { result: 1 }
+[2015-04-14 21:29:50.875] [INFO] [RES] /setLocale result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:29:53.650] [INFO] [REQ] GET /getCenterAskApprovalList [106.129.175.17]
+[2015-04-14 21:29:53.653] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:44:38.946] [INFO] [REQ] GET /getBadge2?member_id=190&device_id=1&kids_id=128 [106.129.175.17]
+[2015-04-14 21:44:38.947] [INFO] { member_id: '190', device_id: '1', kids_id: '128' }
+[2015-04-14 21:44:38.949] [INFO] { id: 190,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-04-14 21:44:38.950] [INFO] [RES] /getBadge2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:44:41.086] [INFO] [REQ] GET /getCenterAskApprovalList [106.129.175.17]
+[2015-04-14 21:44:41.089] [INFO] [RES] /getCenterAskApprovalList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:02.974] [INFO] [REQ] GET /getMamaTalkList?center_id=38&class_id=200&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:02.974] [INFO] { center_id: '38', class_id: '200', pageno: '1', pagesize: '10' }
+[2015-04-14 21:45:02.977] [INFO] [ '38', '200', '1', '10' ]
+[2015-04-14 21:45:02.981] [INFO] [RES] /getMamaTalkList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:04.975] [INFO] [REQ] GET /getMamaTalkList?center_id=38&class_id=200&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:04.975] [INFO] { center_id: '38', class_id: '200', pageno: '1', pagesize: '10' }
+[2015-04-14 21:45:04.975] [INFO] [ '38', '200', '1', '10' ]
+[2015-04-14 21:45:04.980] [INFO] [RES] /getMamaTalkList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:10.023] [INFO] [REQ] GET /getMamaTalkList?center_id=38&class_id=&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:10.023] [INFO] { center_id: '38', class_id: '', pageno: '1', pagesize: '10' }
+[2015-04-14 21:45:10.024] [INFO] [ '38', -1, '1', '10' ]
+[2015-04-14 21:45:10.028] [INFO] [RES] /getMamaTalkList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:14.222] [INFO] [REQ] GET /getContactList2?center_id=38&month=201504&member_id=190&kids_id=128&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:14.222] [INFO] { center_id: '38',
+  month: '201504',
+  member_id: '190',
+  kids_id: '128',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 21:45:14.223] [INFO] [ '38', '201504', '190', '128', '1', '10' ]
+[2015-04-14 21:45:14.281] [INFO] [RES] /getContactList2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:16.482] [INFO] [REQ] GET /getScheduleList2?center_id=38&member_id=190&kids_id=128&month=201504 [106.129.175.17]
+[2015-04-14 21:45:16.482] [INFO] { center_id: '38',
+  member_id: '190',
+  kids_id: '128',
+  month: '201504' }
+[2015-04-14 21:45:16.485] [INFO] [RES] /getScheduleList2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:18.292] [INFO] [REQ] GET /getNoticeList?center_id=38&class_id=200&member_id=190&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:18.292] [INFO] { center_id: '38',
+  class_id: '200',
+  member_id: '190',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 21:45:18.293] [INFO] [ '38', '200', '190', '1', '10' ]
+[2015-04-14 21:45:18.299] [INFO] [RES] /getNoticeList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:20.611] [INFO] [REQ] GET /getEventList?center_id=38&class_id=200&member_id=190&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:20.612] [INFO] { center_id: '38',
+  class_id: '200',
+  member_id: '190',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 21:45:20.612] [INFO] [ '38', '200', '190', '1', '10' ]
+[2015-04-14 21:45:20.623] [INFO] [RES] /getEventList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:22.711] [INFO] [REQ] GET /getDailyMenuList?center_id=38&class_id=200&pageno=1&pagesize=5 [106.129.175.17]
+[2015-04-14 21:45:22.712] [INFO] { center_id: '38', class_id: '200', pageno: '1', pagesize: '5' }
+[2015-04-14 21:45:22.715] [INFO] [RES] /getDailyMenuList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:25.291] [INFO] [REQ] GET /getAlbumList2?member_id=190&kids_id=128&pageno=1&pagesize=15 [106.129.175.17]
+[2015-04-14 21:45:25.291] [INFO] { member_id: '190', kids_id: '128', pageno: '1', pagesize: '15' }
+[2015-04-14 21:45:25.296] [INFO] [RES] /getAlbumList2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:27.510] [INFO] [REQ] GET /getMamaTalkList?center_id=38&class_id=200&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:27.510] [INFO] { center_id: '38', class_id: '200', pageno: '1', pagesize: '10' }
+[2015-04-14 21:45:27.511] [INFO] [ '38', '200', '1', '10' ]
+[2015-04-14 21:45:27.516] [INFO] [RES] /getMamaTalkList result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:29.051] [INFO] [REQ] GET /getContactList2?center_id=38&month=201504&member_id=190&kids_id=128&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:29.052] [INFO] { center_id: '38',
+  month: '201504',
+  member_id: '190',
+  kids_id: '128',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 21:45:29.053] [INFO] [ '38', '201504', '190', '128', '1', '10' ]
+[2015-04-14 21:45:29.076] [INFO] [RES] /getContactList2 result -> status:OK, message: [106.129.175.17]
+[2015-04-14 21:45:30.331] [INFO] [REQ] GET /getContactReplyList2?contact_id=369&member_id=190&pageno=1&pagesize=10 [106.129.175.17]
+[2015-04-14 21:45:30.332] [INFO] { contact_id: '369',
+  member_id: '190',
+  pageno: '1',
+  pagesize: '10' }
+[2015-04-14 21:45:30.335] [INFO] [RES] /getContactReplyList2 result -> status:OK, message: [106.129.175.17]

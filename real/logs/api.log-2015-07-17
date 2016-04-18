@@ -1,0 +1,30 @@
+[2015-07-17 10:54:00.488] [INFO] *** Master[7547]
+[2015-07-17 10:54:00.998] [INFO] *** HttpsServer[7557] is running[mode:production]...
+[2015-07-17 16:28:00.664] [INFO] [REQ] GET /access?member_id=274 [126.255.75.95]
+[2015-07-17 16:28:00.665] [INFO] { member_id: '274' }
+[2015-07-17 16:28:00.685] [INFO] { id: 1,
+  type: '1',
+  token: '7da30301c764ccfe9901f0485c1eff92107a50448599c6b062e0498c5db3069c',
+  locale: 'ja' }
+[2015-07-17 16:28:00.690] [INFO] [RES] /access result -> status:OK, message: [126.255.75.95]
+[2015-07-17 16:28:00.934] [INFO] [REQ] GET /getClassList?center_id=43 [126.255.75.95]
+[2015-07-17 16:28:00.934] [INFO] { center_id: '43' }
+[2015-07-17 16:28:00.939] [INFO] [RES] /getClassList result -> status:OK, message: [126.255.75.95]
+[2015-07-17 16:28:01.493] [INFO] [REQ] GET /setLocale?member_id=274&device_id=1&locale=ja [126.255.75.95]
+[2015-07-17 16:28:01.493] [INFO] { member_id: '274', device_id: '1', locale: 'ja' }
+[2015-07-17 16:28:01.503] [INFO] [REQ] GET /getBadge2?member_id=274&device_id=1&kids_id=173 [126.255.75.95]
+[2015-07-17 16:28:01.510] [INFO] { member_id: '274', device_id: '1', kids_id: '173' }
+[2015-07-17 16:28:01.533] [INFO] { id: 274,
+  news: 0,
+  manage: 0,
+  contact: 0,
+  notice: 0,
+  event: 0,
+  dailymenu: 0,
+  mamatalk: 0 }
+[2015-07-17 16:28:01.535] [INFO] [RES] /getBadge2 result -> status:OK, message: [126.255.75.95]
+[2015-07-17 16:28:01.589] [INFO] { result: 1 }
+[2015-07-17 16:28:01.590] [INFO] [RES] /setLocale result -> status:OK, message: [126.255.75.95]
+[2015-07-17 16:28:03.574] [INFO] [REQ] GET /getNewsList?member_id=274&device_id=1 [126.255.75.95]
+[2015-07-17 16:28:03.574] [INFO] { member_id: '274', device_id: '1' }
+[2015-07-17 16:28:03.578] [INFO] [RES] /getNewsList result -> status:OK, message: [126.255.75.95]
